@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.functions.annotation.TableOutput
+  id: TableOutput
+  parent: com.microsoft.azure.functions.annotation
+  children:
+  - com.microsoft.azure.functions.annotation.TableOutput.connection()
+  - com.microsoft.azure.functions.annotation.TableOutput.dataType()
+  - com.microsoft.azure.functions.annotation.TableOutput.name()
+  - com.microsoft.azure.functions.annotation.TableOutput.partitionKey()
+  - com.microsoft.azure.functions.annotation.TableOutput.rowKey()
+  - com.microsoft.azure.functions.annotation.TableOutput.tableName()
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: TableOutput
+  nameWithType: TableOutput
+  fullName: com.microsoft.azure.functions.annotation.TableOutput
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+      branch: master
+      repo: https://github.com/Azure/azure-functions-java-library
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 19
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public interface TableOutput
+- uid: com.microsoft.azure.functions.annotation.TableOutput.connection()
+  id: connection()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: connection()
+  nameWithType: TableOutput.connection()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.connection()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.connection*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 30
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String connection() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.TableOutput.dataType()
+  id: dataType()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: dataType()
+  nameWithType: TableOutput.dataType()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.dataType()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.dataType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 22
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String dataType() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.TableOutput.name()
+  id: name()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: TableOutput.name()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.name()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.name*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 20
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.TableOutput.partitionKey()
+  id: partitionKey()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: partitionKey()
+  nameWithType: TableOutput.partitionKey()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.partitionKey()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.partitionKey*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 26
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String partitionKey() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.TableOutput.rowKey()
+  id: rowKey()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: rowKey()
+  nameWithType: TableOutput.rowKey()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.rowKey()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.rowKey*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 28
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String rowKey() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.TableOutput.tableName()
+  id: tableName()
+  parent: com.microsoft.azure.functions.annotation.TableOutput
+  href: com.microsoft.azure.functions.annotation.TableOutput.yml
+  langs:
+  - java
+  name: tableName()
+  nameWithType: TableOutput.tableName()
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.tableName()
+  overload: com.microsoft.azure.functions.annotation.TableOutput.tableName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/TableOutput.java
+    startLine: 24
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String tableName()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.functions.annotation.TableOutput.name*
+  name: name
+  nameWithType: TableOutput.name
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.name
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.TableOutput.dataType*
+  name: dataType
+  nameWithType: TableOutput.dataType
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.dataType
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.TableOutput.tableName*
+  name: tableName
+  nameWithType: TableOutput.tableName
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.tableName
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.TableOutput.partitionKey*
+  name: partitionKey
+  nameWithType: TableOutput.partitionKey
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.partitionKey
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.TableOutput.rowKey*
+  name: rowKey
+  nameWithType: TableOutput.rowKey
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.rowKey
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.TableOutput.connection*
+  name: connection
+  nameWithType: TableOutput.connection
+  fullName: com.microsoft.azure.functions.annotation.TableOutput.connection
+  package: com.microsoft.azure.functions.annotation

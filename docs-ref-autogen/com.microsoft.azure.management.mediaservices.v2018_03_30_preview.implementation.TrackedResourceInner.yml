@@ -1,0 +1,207 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  id: TrackedResourceInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  children:
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation(String)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags(Map<String, String>)
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  langs:
+  - java
+  name: TrackedResourceInner
+  nameWithType: TrackedResourceInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  type: Class
+  source:
+    remote: &o0
+      path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+      branch: mgmt-generated
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+    startLine: 17
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: <p>The resource model definition for a ARM tracked resource. </p>
+  syntax: &o1
+    content: public class TrackedResourceInner
+  inheritance:
+  - java.lang.Object
+  - ProxyResource
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location()
+  id: location()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  langs:
+  - java
+  name: location()
+  nameWithType: TrackedResourceInner.location()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+    startLine: 55
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the location value.</p>
+
+    <p></p>
+  syntax:
+    content: public String location()
+    return:
+      type: "26831127"
+      description: <p>the location value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags()
+  id: tags()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  langs:
+  - java
+  name: tags()
+  nameWithType: TrackedResourceInner.tags()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+    startLine: 35
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the tags value.</p>
+
+    <p></p>
+  syntax:
+    content: public Map<String, String> tags()
+    return:
+      type: 689c8cb5
+      description: <p>the tags value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation(String)
+  id: withLocation(String)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  langs:
+  - java
+  name: withLocation(String location)
+  nameWithType: TrackedResourceInner.withLocation(String location)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation(String location)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+    startLine: 65
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the location value.</p>
+
+    <p></p>
+  syntax:
+    content: public TrackedResourceInner withLocation(String location)
+    parameters:
+    - id: location
+      type: "26831127"
+      description: <p>the location value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+      description: <p>the TrackedResourceInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags(Map<String, String>)
+  id: withTags(Map<String, String>)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  langs:
+  - java
+  name: withTags(Map<String, String> tags)
+  nameWithType: TrackedResourceInner.withTags(Map<String, String> tags)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags(Map<String, String> tags)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/TrackedResourceInner.java
+    startLine: 45
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the tags value.</p>
+
+    <p></p>
+  syntax:
+    content: public TrackedResourceInner withTags(Map<String, String> tags)
+    parameters:
+    - id: tags
+      type: 689c8cb5
+      description: <p>the tags value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+      description: <p>the TrackedResourceInner object itself. </p>
+references:
+- uid: 689c8cb5
+  spec.java:
+  - name: Map<String, String>
+    fullName: Map<String, String>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags*
+  name: tags
+  nameWithType: TrackedResourceInner.tags
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.tags
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags*
+  name: withTags
+  nameWithType: TrackedResourceInner.withTags
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withTags
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location*
+  name: location
+  nameWithType: TrackedResourceInner.location
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.location
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation*
+  name: withLocation
+  nameWithType: TrackedResourceInner.withLocation
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.withLocation
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveEventInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveEventInner.yml
+  name: LiveEventInner
+  nameWithType: LiveEventInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveEventInner
+  type: Class
+  summary: <p>The Live Event. </p>
+  syntax:
+    content: public class LiveEventInner extends TrackedResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingEndpointInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingEndpointInner.yml
+  name: StreamingEndpointInner
+  nameWithType: StreamingEndpointInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingEndpointInner
+  type: Class
+  summary: <p>The StreamingEndpoint. </p>
+  syntax:
+    content: public class StreamingEndpointInner extends TrackedResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.SubscriptionMediaServiceInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.SubscriptionMediaServiceInner.yml
+  name: SubscriptionMediaServiceInner
+  nameWithType: SubscriptionMediaServiceInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.SubscriptionMediaServiceInner
+  type: Class
+  summary: <p>A Media Services account. </p>
+  syntax:
+    content: public class SubscriptionMediaServiceInner extends TrackedResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner.yml
+  name: TrackedResourceInner
+  nameWithType: TrackedResourceInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TrackedResourceInner
+  type: Class
+  summary: <p>The resource model definition for a ARM tracked resource. </p>
+  syntax: *o1

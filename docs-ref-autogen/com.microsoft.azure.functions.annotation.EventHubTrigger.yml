@@ -1,0 +1,162 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger
+  id: EventHubTrigger
+  parent: com.microsoft.azure.functions.annotation
+  children:
+  - com.microsoft.azure.functions.annotation.EventHubTrigger.connection()
+  - com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup()
+  - com.microsoft.azure.functions.annotation.EventHubTrigger.dataType()
+  - com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName()
+  - com.microsoft.azure.functions.annotation.EventHubTrigger.name()
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: EventHubTrigger
+  nameWithType: EventHubTrigger
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+      branch: master
+      repo: https://github.com/Azure/azure-functions-java-library
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 30
+  package: com.microsoft.azure.functions.annotation
+  summary: >-
+    <p>EventHubTrigger(name = "msg", eventHubName = "myeventhubname", connection = "myconnvarname") String message, final ExecutionContext context ) { context.getLogger().info(message); }</p>
+
+    <p></p>
+  syntax:
+    content: public interface EventHubTrigger
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.connection()
+  id: connection()
+  parent: com.microsoft.azure.functions.annotation.EventHubTrigger
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: connection()
+  nameWithType: EventHubTrigger.connection()
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.connection()
+  overload: com.microsoft.azure.functions.annotation.EventHubTrigger.connection*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 39
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String connection()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup()
+  id: consumerGroup()
+  parent: com.microsoft.azure.functions.annotation.EventHubTrigger
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: consumerGroup()
+  nameWithType: EventHubTrigger.consumerGroup()
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup()
+  overload: com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 37
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String consumerGroup() default "$Default"
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.dataType()
+  id: dataType()
+  parent: com.microsoft.azure.functions.annotation.EventHubTrigger
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: dataType()
+  nameWithType: EventHubTrigger.dataType()
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.dataType()
+  overload: com.microsoft.azure.functions.annotation.EventHubTrigger.dataType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 33
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String dataType() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName()
+  id: eventHubName()
+  parent: com.microsoft.azure.functions.annotation.EventHubTrigger
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: eventHubName()
+  nameWithType: EventHubTrigger.eventHubName()
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName()
+  overload: com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 35
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String eventHubName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.name()
+  id: name()
+  parent: com.microsoft.azure.functions.annotation.EventHubTrigger
+  href: com.microsoft.azure.functions.annotation.EventHubTrigger.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: EventHubTrigger.name()
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.name()
+  overload: com.microsoft.azure.functions.annotation.EventHubTrigger.name*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubTrigger.java
+    startLine: 31
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.name*
+  name: name
+  nameWithType: EventHubTrigger.name
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.name
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.dataType*
+  name: dataType
+  nameWithType: EventHubTrigger.dataType
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.dataType
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName*
+  name: eventHubName
+  nameWithType: EventHubTrigger.eventHubName
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.eventHubName
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup*
+  name: consumerGroup
+  nameWithType: EventHubTrigger.consumerGroup
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.consumerGroup
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubTrigger.connection*
+  name: connection
+  nameWithType: EventHubTrigger.connection
+  fullName: com.microsoft.azure.functions.annotation.EventHubTrigger.connection
+  package: com.microsoft.azure.functions.annotation

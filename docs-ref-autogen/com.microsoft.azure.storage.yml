@@ -3,75 +3,75 @@ items:
 - uid: com.microsoft.azure.storage
   id: storage
   children:
-  - com.microsoft.azure.storage._access_condition
-  - com.microsoft.azure.storage._account_information
-  - com.microsoft.azure.storage._base_event
-  - com.microsoft.azure.storage._cloud_storage_account
-  - com.microsoft.azure.storage._constants
-  - com.microsoft.azure.storage._constants._analytics_constants
-  - com.microsoft.azure.storage._constants._encryption_constants
-  - com.microsoft.azure.storage._constants._header_constants
-  - com.microsoft.azure.storage._constants._query_constants
-  - com.microsoft.azure.storage._cors_http_methods
-  - com.microsoft.azure.storage._cors_properties
-  - com.microsoft.azure.storage._cors_rule
-  - com.microsoft.azure.storage._delete_retention_policy
-  - com.microsoft.azure.storage._does_service_request
-  - com.microsoft.azure.storage._error_receiving_response_event
-  - com.microsoft.azure.storage._geo_replication_stats
-  - com.microsoft.azure.storage._geo_replication_status
-  - com.microsoft.azure.storage._i_p_range
-  - com.microsoft.azure.storage._location_mode
-  - com.microsoft.azure.storage._logging_operations
-  - com.microsoft.azure.storage._logging_properties
-  - com.microsoft.azure.storage._metrics_level
-  - com.microsoft.azure.storage._metrics_properties
-  - com.microsoft.azure.storage._name_validator
-  - com.microsoft.azure.storage._operation_context
-  - com.microsoft.azure.storage._permissions
-  - com.microsoft.azure.storage._request_completed_event
-  - com.microsoft.azure.storage._request_options
-  - com.microsoft.azure.storage._request_result
-  - com.microsoft.azure.storage._response_received_event
-  - com.microsoft.azure.storage._result_continuation
-  - com.microsoft.azure.storage._result_continuation_type
-  - com.microsoft.azure.storage._result_segment
-  - com.microsoft.azure.storage._retry_context
-  - com.microsoft.azure.storage._retry_exponential_retry
-  - com.microsoft.azure.storage._retry_info
-  - com.microsoft.azure.storage._retry_linear_retry
-  - com.microsoft.azure.storage._retry_no_retry
-  - com.microsoft.azure.storage._retry_policy
-  - com.microsoft.azure.storage._retry_policy_factory
-  - com.microsoft.azure.storage._retrying_event
-  - com.microsoft.azure.storage._sending_request_event
-  - com.microsoft.azure.storage._service_client
-  - com.microsoft.azure.storage._service_properties
-  - com.microsoft.azure.storage._service_stats
-  - com.microsoft.azure.storage._shared_access_account_permissions
-  - com.microsoft.azure.storage._shared_access_account_policy
-  - com.microsoft.azure.storage._shared_access_account_resource_type
-  - com.microsoft.azure.storage._shared_access_account_service
-  - com.microsoft.azure.storage._shared_access_headers
-  - com.microsoft.azure.storage._shared_access_policy
-  - com.microsoft.azure.storage._shared_access_policy_handler
-  - com.microsoft.azure.storage._shared_access_policy_serializer
-  - com.microsoft.azure.storage._shared_access_protocols
-  - com.microsoft.azure.storage._static_website_properties
-  - com.microsoft.azure.storage._storage_credentials
-  - com.microsoft.azure.storage._storage_credentials_account_and_key
-  - com.microsoft.azure.storage._storage_credentials_anonymous
-  - com.microsoft.azure.storage._storage_credentials_shared_access_signature
-  - com.microsoft.azure.storage._storage_credentials_token
-  - com.microsoft.azure.storage._storage_error_code
-  - com.microsoft.azure.storage._storage_error_code_strings
-  - com.microsoft.azure.storage._storage_event
-  - com.microsoft.azure.storage._storage_event_multi_caster
-  - com.microsoft.azure.storage._storage_exception
-  - com.microsoft.azure.storage._storage_extended_error_information
-  - com.microsoft.azure.storage._storage_location
-  - com.microsoft.azure.storage._storage_uri
-  - com.microsoft.azure.storage._sub_stream_generator
+  - com.microsoft.azure.storage.AccessCondition
+  - com.microsoft.azure.storage.AccountInformation
+  - com.microsoft.azure.storage.BaseEvent
+  - com.microsoft.azure.storage.CloudStorageAccount
+  - com.microsoft.azure.storage.Constants
+  - com.microsoft.azure.storage.Constants.AnalyticsConstants
+  - com.microsoft.azure.storage.Constants.EncryptionConstants
+  - com.microsoft.azure.storage.Constants.HeaderConstants
+  - com.microsoft.azure.storage.Constants.QueryConstants
+  - com.microsoft.azure.storage.CorsHttpMethods
+  - com.microsoft.azure.storage.CorsProperties
+  - com.microsoft.azure.storage.CorsRule
+  - com.microsoft.azure.storage.DeleteRetentionPolicy
+  - com.microsoft.azure.storage.DoesServiceRequest
+  - com.microsoft.azure.storage.ErrorReceivingResponseEvent
+  - com.microsoft.azure.storage.GeoReplicationStats
+  - com.microsoft.azure.storage.GeoReplicationStatus
+  - com.microsoft.azure.storage.IPRange
+  - com.microsoft.azure.storage.LocationMode
+  - com.microsoft.azure.storage.LoggingOperations
+  - com.microsoft.azure.storage.LoggingProperties
+  - com.microsoft.azure.storage.MetricsLevel
+  - com.microsoft.azure.storage.MetricsProperties
+  - com.microsoft.azure.storage.NameValidator
+  - com.microsoft.azure.storage.OperationContext
+  - com.microsoft.azure.storage.Permissions
+  - com.microsoft.azure.storage.RequestCompletedEvent
+  - com.microsoft.azure.storage.RequestOptions
+  - com.microsoft.azure.storage.RequestResult
+  - com.microsoft.azure.storage.ResponseReceivedEvent
+  - com.microsoft.azure.storage.ResultContinuation
+  - com.microsoft.azure.storage.ResultContinuationType
+  - com.microsoft.azure.storage.ResultSegment
+  - com.microsoft.azure.storage.RetryContext
+  - com.microsoft.azure.storage.RetryExponentialRetry
+  - com.microsoft.azure.storage.RetryInfo
+  - com.microsoft.azure.storage.RetryingEvent
+  - com.microsoft.azure.storage.RetryLinearRetry
+  - com.microsoft.azure.storage.RetryNoRetry
+  - com.microsoft.azure.storage.RetryPolicy
+  - com.microsoft.azure.storage.RetryPolicyFactory
+  - com.microsoft.azure.storage.SendingRequestEvent
+  - com.microsoft.azure.storage.ServiceClient
+  - com.microsoft.azure.storage.ServiceProperties
+  - com.microsoft.azure.storage.ServiceStats
+  - com.microsoft.azure.storage.SharedAccessAccountPermissions
+  - com.microsoft.azure.storage.SharedAccessAccountPolicy
+  - com.microsoft.azure.storage.SharedAccessAccountResourceType
+  - com.microsoft.azure.storage.SharedAccessAccountService
+  - com.microsoft.azure.storage.SharedAccessHeaders
+  - com.microsoft.azure.storage.SharedAccessPolicy
+  - com.microsoft.azure.storage.SharedAccessPolicyHandler
+  - com.microsoft.azure.storage.SharedAccessPolicySerializer
+  - com.microsoft.azure.storage.SharedAccessProtocols
+  - com.microsoft.azure.storage.StaticWebsiteProperties
+  - com.microsoft.azure.storage.StorageCredentials
+  - com.microsoft.azure.storage.StorageCredentialsAccountAndKey
+  - com.microsoft.azure.storage.StorageCredentialsAnonymous
+  - com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature
+  - com.microsoft.azure.storage.StorageCredentialsToken
+  - com.microsoft.azure.storage.StorageErrorCode
+  - com.microsoft.azure.storage.StorageErrorCodeStrings
+  - com.microsoft.azure.storage.StorageEvent
+  - com.microsoft.azure.storage.StorageEventMultiCaster
+  - com.microsoft.azure.storage.StorageException
+  - com.microsoft.azure.storage.StorageExtendedErrorInformation
+  - com.microsoft.azure.storage.StorageLocation
+  - com.microsoft.azure.storage.StorageUri
+  - com.microsoft.azure.storage.SubStreamGenerator
   href: com.microsoft.azure.storage.yml
   langs:
   - java
@@ -137,9 +137,9 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.azure.storage.table
-- uid: com.microsoft.azure.storage._access_condition
+- uid: com.microsoft.azure.storage.AccessCondition
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._access_condition.yml
+  href: com.microsoft.azure.storage.AccessCondition.yml
   name: AccessCondition
   nameWithType: AccessCondition
   fullName: com.microsoft.azure.storage.AccessCondition
@@ -147,9 +147,9 @@ references:
   summary: <p>Represents a set of access conditions to be used for operations against the storage services. </p>
   syntax:
     content: public class AccessCondition
-- uid: com.microsoft.azure.storage._account_information
+- uid: com.microsoft.azure.storage.AccountInformation
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._account_information.yml
+  href: com.microsoft.azure.storage.AccountInformation.yml
   name: AccountInformation
   nameWithType: AccountInformation
   fullName: com.microsoft.azure.storage.AccountInformation
@@ -157,9 +157,9 @@ references:
   summary: <p>Holds information related to the storage account. </p>
   syntax:
     content: public class AccountInformation
-- uid: com.microsoft.azure.storage._base_event
+- uid: com.microsoft.azure.storage.BaseEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._base_event.yml
+  href: com.microsoft.azure.storage.BaseEvent.yml
   name: BaseEvent
   nameWithType: BaseEvent
   fullName: com.microsoft.azure.storage.BaseEvent
@@ -167,9 +167,9 @@ references:
   summary: <p>Represents an event. </p>
   syntax:
     content: public class BaseEvent
-- uid: com.microsoft.azure.storage._cloud_storage_account
+- uid: com.microsoft.azure.storage.CloudStorageAccount
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._cloud_storage_account.yml
+  href: com.microsoft.azure.storage.CloudStorageAccount.yml
   name: CloudStorageAccount
   nameWithType: CloudStorageAccount
   fullName: com.microsoft.azure.storage.CloudStorageAccount
@@ -177,9 +177,9 @@ references:
   summary: <p>Represents a Microsoft Azure storage account. </p>
   syntax:
     content: public class CloudStorageAccount
-- uid: com.microsoft.azure.storage._constants
+- uid: com.microsoft.azure.storage.Constants
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._constants.yml
+  href: com.microsoft.azure.storage.Constants.yml
   name: Constants
   nameWithType: Constants
   fullName: com.microsoft.azure.storage.Constants
@@ -187,9 +187,9 @@ references:
   summary: <p>RESERVED FOR INTERNAL USE. Contains storage constants. </p>
   syntax:
     content: public class Constants
-- uid: com.microsoft.azure.storage._cors_http_methods
+- uid: com.microsoft.azure.storage.CorsHttpMethods
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._cors_http_methods.yml
+  href: com.microsoft.azure.storage.CorsHttpMethods.yml
   name: CorsHttpMethods
   nameWithType: CorsHttpMethods
   fullName: com.microsoft.azure.storage.CorsHttpMethods
@@ -197,9 +197,9 @@ references:
   summary: <p>HTTP Methods that are supported by CORS. </p>
   syntax:
     content: public enum CorsHttpMethods
-- uid: com.microsoft.azure.storage._cors_properties
+- uid: com.microsoft.azure.storage.CorsProperties
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._cors_properties.yml
+  href: com.microsoft.azure.storage.CorsProperties.yml
   name: CorsProperties
   nameWithType: CorsProperties
   fullName: com.microsoft.azure.storage.CorsProperties
@@ -207,9 +207,9 @@ references:
   summary: <p>Class representing the service properties pertaining to CORS. </p>
   syntax:
     content: public class CorsProperties
-- uid: com.microsoft.azure.storage._cors_rule
+- uid: com.microsoft.azure.storage.CorsRule
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._cors_rule.yml
+  href: com.microsoft.azure.storage.CorsRule.yml
   name: CorsRule
   nameWithType: CorsRule
   fullName: com.microsoft.azure.storage.CorsRule
@@ -217,9 +217,9 @@ references:
   summary: <p>Represents a Cross-Origin Resource Sharing (CORS) rule. </p>
   syntax:
     content: public class CorsRule
-- uid: com.microsoft.azure.storage._delete_retention_policy
+- uid: com.microsoft.azure.storage.DeleteRetentionPolicy
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._delete_retention_policy.yml
+  href: com.microsoft.azure.storage.DeleteRetentionPolicy.yml
   name: DeleteRetentionPolicy
   nameWithType: DeleteRetentionPolicy
   fullName: com.microsoft.azure.storage.DeleteRetentionPolicy
@@ -227,9 +227,9 @@ references:
   summary: <p>Represents the policy governing the retention of deleted blobs. </p>
   syntax:
     content: public class DeleteRetentionPolicy
-- uid: com.microsoft.azure.storage._does_service_request
+- uid: com.microsoft.azure.storage.DoesServiceRequest
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._does_service_request.yml
+  href: com.microsoft.azure.storage.DoesServiceRequest.yml
   name: DoesServiceRequest
   nameWithType: DoesServiceRequest
   fullName: com.microsoft.azure.storage.DoesServiceRequest
@@ -237,9 +237,9 @@ references:
   summary: <p>An attribute used to describe a method that will make a request to the storage service. </p>
   syntax:
     content: public interface DoesServiceRequest
-- uid: com.microsoft.azure.storage._error_receiving_response_event
+- uid: com.microsoft.azure.storage.ErrorReceivingResponseEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._error_receiving_response_event.yml
+  href: com.microsoft.azure.storage.ErrorReceivingResponseEvent.yml
   name: ErrorReceivingResponseEvent
   nameWithType: ErrorReceivingResponseEvent
   fullName: com.microsoft.azure.storage.ErrorReceivingResponseEvent
@@ -247,9 +247,9 @@ references:
   summary: <p>Represents an event that is fired when a network error occurs before the HTTP response status and headers are received. </p>
   syntax:
     content: public class ErrorReceivingResponseEvent extends BaseEvent
-- uid: com.microsoft.azure.storage._geo_replication_stats
+- uid: com.microsoft.azure.storage.GeoReplicationStats
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._geo_replication_stats.yml
+  href: com.microsoft.azure.storage.GeoReplicationStats.yml
   name: GeoReplicationStats
   nameWithType: GeoReplicationStats
   fullName: com.microsoft.azure.storage.GeoReplicationStats
@@ -257,9 +257,9 @@ references:
   summary: <p>Class representing the geo-replication statistics. </p>
   syntax:
     content: public class GeoReplicationStats
-- uid: com.microsoft.azure.storage._geo_replication_status
+- uid: com.microsoft.azure.storage.GeoReplicationStatus
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._geo_replication_status.yml
+  href: com.microsoft.azure.storage.GeoReplicationStatus.yml
   name: GeoReplicationStatus
   nameWithType: GeoReplicationStatus
   fullName: com.microsoft.azure.storage.GeoReplicationStatus
@@ -267,9 +267,9 @@ references:
   summary: <p>Enumeration representing the state of geo-replication in a service. </p>
   syntax:
     content: public enum GeoReplicationStatus
-- uid: com.microsoft.azure.storage._i_p_range
+- uid: com.microsoft.azure.storage.IPRange
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._i_p_range.yml
+  href: com.microsoft.azure.storage.IPRange.yml
   name: IPRange
   nameWithType: IPRange
   fullName: com.microsoft.azure.storage.IPRange
@@ -277,9 +277,9 @@ references:
   summary: <p>A continuous range of IP addresses. </p>
   syntax:
     content: public class IPRange
-- uid: com.microsoft.azure.storage._location_mode
+- uid: com.microsoft.azure.storage.LocationMode
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._location_mode.yml
+  href: com.microsoft.azure.storage.LocationMode.yml
   name: LocationMode
   nameWithType: LocationMode
   fullName: com.microsoft.azure.storage.LocationMode
@@ -287,9 +287,9 @@ references:
   summary: <p>Specifies the location mode used to decide which location the request should be sent to. </p>
   syntax:
     content: public enum LocationMode
-- uid: com.microsoft.azure.storage._logging_operations
+- uid: com.microsoft.azure.storage.LoggingOperations
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._logging_operations.yml
+  href: com.microsoft.azure.storage.LoggingOperations.yml
   name: LoggingOperations
   nameWithType: LoggingOperations
   fullName: com.microsoft.azure.storage.LoggingOperations
@@ -297,9 +297,9 @@ references:
   summary: <p>Specifies which types of operations the service should log. </p>
   syntax:
     content: public enum LoggingOperations
-- uid: com.microsoft.azure.storage._logging_properties
+- uid: com.microsoft.azure.storage.LoggingProperties
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._logging_properties.yml
+  href: com.microsoft.azure.storage.LoggingProperties.yml
   name: LoggingProperties
   nameWithType: LoggingProperties
   fullName: com.microsoft.azure.storage.LoggingProperties
@@ -307,9 +307,9 @@ references:
   summary: <p>Represents the logging properties for the analytics service. </p>
   syntax:
     content: public class LoggingProperties
-- uid: com.microsoft.azure.storage._metrics_level
+- uid: com.microsoft.azure.storage.MetricsLevel
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._metrics_level.yml
+  href: com.microsoft.azure.storage.MetricsLevel.yml
   name: MetricsLevel
   nameWithType: MetricsLevel
   fullName: com.microsoft.azure.storage.MetricsLevel
@@ -317,9 +317,9 @@ references:
   summary: <p>Enumeration representing the state of metrics collection in a service. </p>
   syntax:
     content: public enum MetricsLevel
-- uid: com.microsoft.azure.storage._metrics_properties
+- uid: com.microsoft.azure.storage.MetricsProperties
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._metrics_properties.yml
+  href: com.microsoft.azure.storage.MetricsProperties.yml
   name: MetricsProperties
   nameWithType: MetricsProperties
   fullName: com.microsoft.azure.storage.MetricsProperties
@@ -327,9 +327,9 @@ references:
   summary: <p>Represents the metrics properties for the analytics service. </p>
   syntax:
     content: public class MetricsProperties
-- uid: com.microsoft.azure.storage._name_validator
+- uid: com.microsoft.azure.storage.NameValidator
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._name_validator.yml
+  href: com.microsoft.azure.storage.NameValidator.yml
   name: NameValidator
   nameWithType: NameValidator
   fullName: com.microsoft.azure.storage.NameValidator
@@ -337,9 +337,9 @@ references:
   summary: <p>Provides helpers to validate resource names across the Microsoft Azure Storage Services. </p>
   syntax:
     content: public class NameValidator
-- uid: com.microsoft.azure.storage._operation_context
+- uid: com.microsoft.azure.storage.OperationContext
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._operation_context.yml
+  href: com.microsoft.azure.storage.OperationContext.yml
   name: OperationContext
   nameWithType: OperationContext
   fullName: com.microsoft.azure.storage.OperationContext
@@ -347,9 +347,9 @@ references:
   summary: <p>Represents the current logical operation. A logical operation may have a one-to-many relationship with multiple individual physical requests. </p>
   syntax:
     content: public class OperationContext
-- uid: com.microsoft.azure.storage._permissions
+- uid: com.microsoft.azure.storage.Permissions
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._permissions.yml
+  href: com.microsoft.azure.storage.Permissions.yml
   name: Permissions<T>
   nameWithType: Permissions<T>
   fullName: com.microsoft.azure.storage.Permissions<T>
@@ -360,9 +360,9 @@ references:
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.azure.storage._request_completed_event
+- uid: com.microsoft.azure.storage.RequestCompletedEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._request_completed_event.yml
+  href: com.microsoft.azure.storage.RequestCompletedEvent.yml
   name: RequestCompletedEvent
   nameWithType: RequestCompletedEvent
   fullName: com.microsoft.azure.storage.RequestCompletedEvent
@@ -370,9 +370,9 @@ references:
   summary: <p>Represents an event that is fired when a request is completed. </p>
   syntax:
     content: public class RequestCompletedEvent extends BaseEvent
-- uid: com.microsoft.azure.storage._request_options
+- uid: com.microsoft.azure.storage.RequestOptions
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._request_options.yml
+  href: com.microsoft.azure.storage.RequestOptions.yml
   name: RequestOptions
   nameWithType: RequestOptions
   fullName: com.microsoft.azure.storage.RequestOptions
@@ -380,9 +380,9 @@ references:
   summary: <p>Represents the options to use while processing a given request. </p>
   syntax:
     content: public class RequestOptions
-- uid: com.microsoft.azure.storage._request_result
+- uid: com.microsoft.azure.storage.RequestResult
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._request_result.yml
+  href: com.microsoft.azure.storage.RequestResult.yml
   name: RequestResult
   nameWithType: RequestResult
   fullName: com.microsoft.azure.storage.RequestResult
@@ -390,9 +390,9 @@ references:
   summary: <p>Represents the result of a physical request. </p>
   syntax:
     content: public class RequestResult
-- uid: com.microsoft.azure.storage._response_received_event
+- uid: com.microsoft.azure.storage.ResponseReceivedEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._response_received_event.yml
+  href: com.microsoft.azure.storage.ResponseReceivedEvent.yml
   name: ResponseReceivedEvent
   nameWithType: ResponseReceivedEvent
   fullName: com.microsoft.azure.storage.ResponseReceivedEvent
@@ -400,19 +400,19 @@ references:
   summary: <p>Represents an event that is fired when a response is received. </p>
   syntax:
     content: public class ResponseReceivedEvent extends BaseEvent
-- uid: com.microsoft.azure.storage._result_continuation
+- uid: com.microsoft.azure.storage.ResultContinuation
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._result_continuation.yml
+  href: com.microsoft.azure.storage.ResultContinuation.yml
   name: ResultContinuation
   nameWithType: ResultContinuation
   fullName: com.microsoft.azure.storage.ResultContinuation
   type: Class
-  summary: <p>Represents a continuation token for listing operations. Continuation tokens are used in methods that return a <xref uid="com.microsoft.azure.storage._result_segment" data-throw-if-not-resolved="false">ResultSegment</xref> object, such as <xref uid="com.microsoft.azure.storage.blob._cloud_blob_directory.listBlobsSegmented()" data-throw-if-not-resolved="false">CloudBlobDirectory#listBlobsSegmented</xref>. </p>
+  summary: <p>Represents a continuation token for listing operations. Continuation tokens are used in methods that return a <xref uid="com.microsoft.azure.storage.ResultSegment" data-throw-if-not-resolved="false">ResultSegment</xref> object, such as <xref uid="com.microsoft.azure.storage.blob.CloudBlobDirectory.listBlobsSegmented()" data-throw-if-not-resolved="false">CloudBlobDirectory#listBlobsSegmented</xref>. </p>
   syntax:
     content: public class ResultContinuation
-- uid: com.microsoft.azure.storage._result_continuation_type
+- uid: com.microsoft.azure.storage.ResultContinuationType
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._result_continuation_type.yml
+  href: com.microsoft.azure.storage.ResultContinuationType.yml
   name: ResultContinuationType
   nameWithType: ResultContinuationType
   fullName: com.microsoft.azure.storage.ResultContinuationType
@@ -420,9 +420,9 @@ references:
   summary: <p>Specifies the type of a continuation token. </p>
   syntax:
     content: public enum ResultContinuationType
-- uid: com.microsoft.azure.storage._result_segment
+- uid: com.microsoft.azure.storage.ResultSegment
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._result_segment.yml
+  href: com.microsoft.azure.storage.ResultSegment.yml
   name: ResultSegment<T>
   nameWithType: ResultSegment<T>
   fullName: com.microsoft.azure.storage.ResultSegment<T>
@@ -437,9 +437,9 @@ references:
     - id: T
       type: 8ce1ecb9
       description: <p>The type of the result that the segment contains. </p>
-- uid: com.microsoft.azure.storage._retry_context
+- uid: com.microsoft.azure.storage.RetryContext
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_context.yml
+  href: com.microsoft.azure.storage.RetryContext.yml
   name: RetryContext
   nameWithType: RetryContext
   fullName: com.microsoft.azure.storage.RetryContext
@@ -447,9 +447,9 @@ references:
   summary: <p>Represents the context for a retry of a request made against the storage services. </p>
   syntax:
     content: public class RetryContext
-- uid: com.microsoft.azure.storage._retry_exponential_retry
+- uid: com.microsoft.azure.storage.RetryExponentialRetry
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_exponential_retry.yml
+  href: com.microsoft.azure.storage.RetryExponentialRetry.yml
   name: RetryExponentialRetry
   nameWithType: RetryExponentialRetry
   fullName: com.microsoft.azure.storage.RetryExponentialRetry
@@ -457,12 +457,12 @@ references:
   summary: >-
     <p>Represents a retry policy that performs a specified number of retries, using a randomized exponential backoff scheme to determine the interval between retries.</p>
 
-    <p>This class extends the <xref uid="com.microsoft.azure.storage._retry_policy" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage._retry_policy_factory" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicyFactory</xref> interface. </p>
+    <p>This class extends the <xref uid="com.microsoft.azure.storage.RetryPolicy" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage.RetryPolicyFactory" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicyFactory</xref> interface. </p>
   syntax:
     content: public class RetryExponentialRetry extends RetryPolicy implements RetryPolicyFactory
-- uid: com.microsoft.azure.storage._retry_info
+- uid: com.microsoft.azure.storage.RetryInfo
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_info.yml
+  href: com.microsoft.azure.storage.RetryInfo.yml
   name: RetryInfo
   nameWithType: RetryInfo
   fullName: com.microsoft.azure.storage.RetryInfo
@@ -470,9 +470,9 @@ references:
   summary: <p>Represents the context for a retry of a request made against the storage services. </p>
   syntax:
     content: public class RetryInfo
-- uid: com.microsoft.azure.storage._retrying_event
+- uid: com.microsoft.azure.storage.RetryingEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retrying_event.yml
+  href: com.microsoft.azure.storage.RetryingEvent.yml
   name: RetryingEvent
   nameWithType: RetryingEvent
   fullName: com.microsoft.azure.storage.RetryingEvent
@@ -480,9 +480,9 @@ references:
   summary: <p>Represents an event that is fired when a request is retried. </p>
   syntax:
     content: public class RetryingEvent extends BaseEvent
-- uid: com.microsoft.azure.storage._retry_linear_retry
+- uid: com.microsoft.azure.storage.RetryLinearRetry
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_linear_retry.yml
+  href: com.microsoft.azure.storage.RetryLinearRetry.yml
   name: RetryLinearRetry
   nameWithType: RetryLinearRetry
   fullName: com.microsoft.azure.storage.RetryLinearRetry
@@ -490,12 +490,12 @@ references:
   summary: >-
     <p>Represents a retry policy that performs a specified number of retries, using a specified fixed time interval between retries.</p>
 
-    <p>This class extends the <xref uid="com.microsoft.azure.storage._retry_policy" data-throw-if-not-resolved="false">RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage._retry_policy_factory" data-throw-if-not-resolved="false">RetryPolicyFactory</xref> interface. </p>
+    <p>This class extends the <xref uid="com.microsoft.azure.storage.RetryPolicy" data-throw-if-not-resolved="false">RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage.RetryPolicyFactory" data-throw-if-not-resolved="false">RetryPolicyFactory</xref> interface. </p>
   syntax:
     content: public class RetryLinearRetry extends RetryPolicy implements RetryPolicyFactory
-- uid: com.microsoft.azure.storage._retry_no_retry
+- uid: com.microsoft.azure.storage.RetryNoRetry
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_no_retry.yml
+  href: com.microsoft.azure.storage.RetryNoRetry.yml
   name: RetryNoRetry
   nameWithType: RetryNoRetry
   fullName: com.microsoft.azure.storage.RetryNoRetry
@@ -503,12 +503,12 @@ references:
   summary: >-
     <p>Represents a retry policy that performs no retries.</p>
 
-    <p>This class extends the <xref uid="com.microsoft.azure.storage._retry_policy" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage._retry_policy_factory" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicyFactory</xref> interface. </p>
+    <p>This class extends the <xref uid="com.microsoft.azure.storage.RetryPolicy" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicy</xref> class and implements the <xref uid="com.microsoft.azure.storage.RetryPolicyFactory" data-throw-if-not-resolved="false">com.microsoft.azure.storage.RetryPolicyFactory</xref> interface. </p>
   syntax:
     content: public class RetryNoRetry extends RetryPolicy implements RetryPolicyFactory
-- uid: com.microsoft.azure.storage._retry_policy
+- uid: com.microsoft.azure.storage.RetryPolicy
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_policy.yml
+  href: com.microsoft.azure.storage.RetryPolicy.yml
   name: RetryPolicy
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.storage.RetryPolicy
@@ -516,19 +516,19 @@ references:
   summary: <p>Abstract class that represents a retry policy. </p>
   syntax:
     content: public class RetryPolicy implements RetryPolicyFactory
-- uid: com.microsoft.azure.storage._retry_policy_factory
+- uid: com.microsoft.azure.storage.RetryPolicyFactory
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._retry_policy_factory.yml
+  href: com.microsoft.azure.storage.RetryPolicyFactory.yml
   name: RetryPolicyFactory
   nameWithType: RetryPolicyFactory
   fullName: com.microsoft.azure.storage.RetryPolicyFactory
   type: Interface
-  summary: <p>Represents a retry policy factory that creates a new <xref uid="com.microsoft.azure.storage._retry_policy" data-throw-if-not-resolved="false">RetryPolicy</xref> object per transaction. </p>
+  summary: <p>Represents a retry policy factory that creates a new <xref uid="com.microsoft.azure.storage.RetryPolicy" data-throw-if-not-resolved="false">RetryPolicy</xref> object per transaction. </p>
   syntax:
     content: public interface RetryPolicyFactory
-- uid: com.microsoft.azure.storage._sending_request_event
+- uid: com.microsoft.azure.storage.SendingRequestEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._sending_request_event.yml
+  href: com.microsoft.azure.storage.SendingRequestEvent.yml
   name: SendingRequestEvent
   nameWithType: SendingRequestEvent
   fullName: com.microsoft.azure.storage.SendingRequestEvent
@@ -536,9 +536,9 @@ references:
   summary: <p>Represents an event that is fired when before sending a request. The connection object is not yet live. </p>
   syntax:
     content: public class SendingRequestEvent extends BaseEvent
-- uid: com.microsoft.azure.storage._service_client
+- uid: com.microsoft.azure.storage.ServiceClient
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._service_client.yml
+  href: com.microsoft.azure.storage.ServiceClient.yml
   name: ServiceClient
   nameWithType: ServiceClient
   fullName: com.microsoft.azure.storage.ServiceClient
@@ -546,9 +546,9 @@ references:
   summary: <p>Provides a client for accessing the Microsoft Azure Storage service. </p>
   syntax:
     content: public class ServiceClient
-- uid: com.microsoft.azure.storage._service_properties
+- uid: com.microsoft.azure.storage.ServiceProperties
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._service_properties.yml
+  href: com.microsoft.azure.storage.ServiceProperties.yml
   name: ServiceProperties
   nameWithType: ServiceProperties
   fullName: com.microsoft.azure.storage.ServiceProperties
@@ -556,9 +556,9 @@ references:
   summary: <p>Represents the analytics properties for the service. </p>
   syntax:
     content: public class ServiceProperties
-- uid: com.microsoft.azure.storage._service_stats
+- uid: com.microsoft.azure.storage.ServiceStats
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._service_stats.yml
+  href: com.microsoft.azure.storage.ServiceStats.yml
   name: ServiceStats
   nameWithType: ServiceStats
   fullName: com.microsoft.azure.storage.ServiceStats
@@ -566,9 +566,9 @@ references:
   summary: <p>Class representing a set of statistics pertaining to a cloud storage service. </p>
   syntax:
     content: public class ServiceStats
-- uid: com.microsoft.azure.storage._shared_access_account_permissions
+- uid: com.microsoft.azure.storage.SharedAccessAccountPermissions
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_account_permissions.yml
+  href: com.microsoft.azure.storage.SharedAccessAccountPermissions.yml
   name: SharedAccessAccountPermissions
   nameWithType: SharedAccessAccountPermissions
   fullName: com.microsoft.azure.storage.SharedAccessAccountPermissions
@@ -576,9 +576,9 @@ references:
   summary: <p>Specifies the set of possible permissions for a shared access account policy. </p>
   syntax:
     content: public enum SharedAccessAccountPermissions
-- uid: com.microsoft.azure.storage._shared_access_account_policy
+- uid: com.microsoft.azure.storage.SharedAccessAccountPolicy
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_account_policy.yml
+  href: com.microsoft.azure.storage.SharedAccessAccountPolicy.yml
   name: SharedAccessAccountPolicy
   nameWithType: SharedAccessAccountPolicy
   fullName: com.microsoft.azure.storage.SharedAccessAccountPolicy
@@ -586,9 +586,9 @@ references:
   summary: <p>Represents a shared access policy, which specifies the start time, expiry time, and permissions for a shared access signature. </p>
   syntax:
     content: public class SharedAccessAccountPolicy extends SharedAccessPolicy
-- uid: com.microsoft.azure.storage._shared_access_account_resource_type
+- uid: com.microsoft.azure.storage.SharedAccessAccountResourceType
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_account_resource_type.yml
+  href: com.microsoft.azure.storage.SharedAccessAccountResourceType.yml
   name: SharedAccessAccountResourceType
   nameWithType: SharedAccessAccountResourceType
   fullName: com.microsoft.azure.storage.SharedAccessAccountResourceType
@@ -596,9 +596,9 @@ references:
   summary: <p>Specifies the set of possible resource types for a shared access account policy. </p>
   syntax:
     content: public enum SharedAccessAccountResourceType
-- uid: com.microsoft.azure.storage._shared_access_account_service
+- uid: com.microsoft.azure.storage.SharedAccessAccountService
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_account_service.yml
+  href: com.microsoft.azure.storage.SharedAccessAccountService.yml
   name: SharedAccessAccountService
   nameWithType: SharedAccessAccountService
   fullName: com.microsoft.azure.storage.SharedAccessAccountService
@@ -606,9 +606,9 @@ references:
   summary: <p>Specifies the set of possible services for a shared access account policy. </p>
   syntax:
     content: public enum SharedAccessAccountService
-- uid: com.microsoft.azure.storage._shared_access_headers
+- uid: com.microsoft.azure.storage.SharedAccessHeaders
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_headers.yml
+  href: com.microsoft.azure.storage.SharedAccessHeaders.yml
   name: SharedAccessHeaders
   nameWithType: SharedAccessHeaders
   fullName: com.microsoft.azure.storage.SharedAccessHeaders
@@ -616,9 +616,9 @@ references:
   summary: <p>RESERVED FOR INTERNAL USE. Represents the optional headers that can be returned using SAS. </p>
   syntax:
     content: public class SharedAccessHeaders
-- uid: com.microsoft.azure.storage._shared_access_policy
+- uid: com.microsoft.azure.storage.SharedAccessPolicy
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_policy.yml
+  href: com.microsoft.azure.storage.SharedAccessPolicy.yml
   name: SharedAccessPolicy
   nameWithType: SharedAccessPolicy
   fullName: com.microsoft.azure.storage.SharedAccessPolicy
@@ -626,9 +626,9 @@ references:
   summary: <p>Represents a shared access policy, which specifies the start time, expiry time, and permissions for a shared access signature. </p>
   syntax:
     content: public class SharedAccessPolicy
-- uid: com.microsoft.azure.storage._shared_access_policy_handler
+- uid: com.microsoft.azure.storage.SharedAccessPolicyHandler
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_policy_handler.yml
+  href: com.microsoft.azure.storage.SharedAccessPolicyHandler.yml
   name: SharedAccessPolicyHandler<T>
   nameWithType: SharedAccessPolicyHandler<T>
   fullName: com.microsoft.azure.storage.SharedAccessPolicyHandler<T>
@@ -639,9 +639,9 @@ references:
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.azure.storage._shared_access_policy_serializer
+- uid: com.microsoft.azure.storage.SharedAccessPolicySerializer
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_policy_serializer.yml
+  href: com.microsoft.azure.storage.SharedAccessPolicySerializer.yml
   name: SharedAccessPolicySerializer
   nameWithType: SharedAccessPolicySerializer
   fullName: com.microsoft.azure.storage.SharedAccessPolicySerializer
@@ -649,9 +649,9 @@ references:
   summary: <p>RESERVED FOR INTERNAL USE. A class used to serialize SharedAccessPolicies to a byte array. </p>
   syntax:
     content: public class SharedAccessPolicySerializer
-- uid: com.microsoft.azure.storage._shared_access_protocols
+- uid: com.microsoft.azure.storage.SharedAccessProtocols
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._shared_access_protocols.yml
+  href: com.microsoft.azure.storage.SharedAccessProtocols.yml
   name: SharedAccessProtocols
   nameWithType: SharedAccessProtocols
   fullName: com.microsoft.azure.storage.SharedAccessProtocols
@@ -659,9 +659,9 @@ references:
   summary: <p>Specifies the set of possible permissions for a shared access protocol. </p>
   syntax:
     content: public enum SharedAccessProtocols
-- uid: com.microsoft.azure.storage._static_website_properties
+- uid: com.microsoft.azure.storage.StaticWebsiteProperties
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._static_website_properties.yml
+  href: com.microsoft.azure.storage.StaticWebsiteProperties.yml
   name: StaticWebsiteProperties
   nameWithType: StaticWebsiteProperties
   fullName: com.microsoft.azure.storage.StaticWebsiteProperties
@@ -669,19 +669,19 @@ references:
   summary: <p>Represents the service properties pertaining to StaticWebsites </p>
   syntax:
     content: public class StaticWebsiteProperties
-- uid: com.microsoft.azure.storage._storage_credentials
+- uid: com.microsoft.azure.storage.StorageCredentials
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_credentials.yml
+  href: com.microsoft.azure.storage.StorageCredentials.yml
   name: StorageCredentials
   nameWithType: StorageCredentials
   fullName: com.microsoft.azure.storage.StorageCredentials
   type: Class
-  summary: <p>Represents a set of credentials used to authenticate access to a Microsoft Azure storage account. This is the base class for the <xref uid="com.microsoft.azure.storage._storage_credentials_account_and_key" data-throw-if-not-resolved="false">StorageCredentialsAccountAndKey</xref>, <xref uid="com.microsoft.azure.storage._storage_credentials_token" data-throw-if-not-resolved="false">StorageCredentialsToken</xref>, and <xref uid="com.microsoft.azure.storage._storage_credentials_shared_access_signature" data-throw-if-not-resolved="false">StorageCredentialsSharedAccessSignature</xref> classes. </p>
+  summary: <p>Represents a set of credentials used to authenticate access to a Microsoft Azure storage account. This is the base class for the <xref uid="com.microsoft.azure.storage.StorageCredentialsAccountAndKey" data-throw-if-not-resolved="false">StorageCredentialsAccountAndKey</xref>, <xref uid="com.microsoft.azure.storage.StorageCredentialsToken" data-throw-if-not-resolved="false">StorageCredentialsToken</xref>, and <xref uid="com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature" data-throw-if-not-resolved="false">StorageCredentialsSharedAccessSignature</xref> classes. </p>
   syntax:
     content: public class StorageCredentials
-- uid: com.microsoft.azure.storage._storage_credentials_account_and_key
+- uid: com.microsoft.azure.storage.StorageCredentialsAccountAndKey
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_credentials_account_and_key.yml
+  href: com.microsoft.azure.storage.StorageCredentialsAccountAndKey.yml
   name: StorageCredentialsAccountAndKey
   nameWithType: StorageCredentialsAccountAndKey
   fullName: com.microsoft.azure.storage.StorageCredentialsAccountAndKey
@@ -689,9 +689,9 @@ references:
   summary: <p>Represents storage account credentials, based on storage account and access key, for accessing the Microsoft Azure storage services. </p>
   syntax:
     content: public class StorageCredentialsAccountAndKey extends StorageCredentials
-- uid: com.microsoft.azure.storage._storage_credentials_anonymous
+- uid: com.microsoft.azure.storage.StorageCredentialsAnonymous
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_credentials_anonymous.yml
+  href: com.microsoft.azure.storage.StorageCredentialsAnonymous.yml
   name: StorageCredentialsAnonymous
   nameWithType: StorageCredentialsAnonymous
   fullName: com.microsoft.azure.storage.StorageCredentialsAnonymous
@@ -699,9 +699,9 @@ references:
   summary: <p>Represents credentials for anonymous access. </p>
   syntax:
     content: public class StorageCredentialsAnonymous extends StorageCredentials
-- uid: com.microsoft.azure.storage._storage_credentials_shared_access_signature
+- uid: com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_credentials_shared_access_signature.yml
+  href: com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature.yml
   name: StorageCredentialsSharedAccessSignature
   nameWithType: StorageCredentialsSharedAccessSignature
   fullName: com.microsoft.azure.storage.StorageCredentialsSharedAccessSignature
@@ -709,9 +709,9 @@ references:
   summary: <p>Represents storage credentials for delegated access to Blob service resources via a shared access signature. </p>
   syntax:
     content: public class StorageCredentialsSharedAccessSignature extends StorageCredentials
-- uid: com.microsoft.azure.storage._storage_credentials_token
+- uid: com.microsoft.azure.storage.StorageCredentialsToken
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_credentials_token.yml
+  href: com.microsoft.azure.storage.StorageCredentialsToken.yml
   name: StorageCredentialsToken
   nameWithType: StorageCredentialsToken
   fullName: com.microsoft.azure.storage.StorageCredentialsToken
@@ -719,9 +719,9 @@ references:
   summary: <p>Represents storage account credentials, based on an authentication token, for accessing the Microsoft Azure storage services. </p>
   syntax:
     content: public class StorageCredentialsToken extends StorageCredentials
-- uid: com.microsoft.azure.storage._storage_error_code
+- uid: com.microsoft.azure.storage.StorageErrorCode
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_error_code.yml
+  href: com.microsoft.azure.storage.StorageErrorCode.yml
   name: StorageErrorCode
   nameWithType: StorageErrorCode
   fullName: com.microsoft.azure.storage.StorageErrorCode
@@ -729,9 +729,9 @@ references:
   summary: <p>Represents error codes that may be returned by the Microsoft Azure storage services or the storage client library. </p>
   syntax:
     content: public enum StorageErrorCode
-- uid: com.microsoft.azure.storage._storage_error_code_strings
+- uid: com.microsoft.azure.storage.StorageErrorCodeStrings
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_error_code_strings.yml
+  href: com.microsoft.azure.storage.StorageErrorCodeStrings.yml
   name: StorageErrorCodeStrings
   nameWithType: StorageErrorCodeStrings
   fullName: com.microsoft.azure.storage.StorageErrorCodeStrings
@@ -739,9 +739,9 @@ references:
   summary: <p>Represents common error code strings for Azure Storage. </p>
   syntax:
     content: public class StorageErrorCodeStrings
-- uid: com.microsoft.azure.storage._storage_event
+- uid: com.microsoft.azure.storage.StorageEvent
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_event.yml
+  href: com.microsoft.azure.storage.StorageEvent.yml
   name: StorageEvent<T>
   nameWithType: StorageEvent<T>
   fullName: com.microsoft.azure.storage.StorageEvent<T>
@@ -756,9 +756,9 @@ references:
     - id: T
       type: 8ce1ecb9
       description: <p>The type of the event to be received. </p>
-- uid: com.microsoft.azure.storage._storage_event_multi_caster
+- uid: com.microsoft.azure.storage.StorageEventMultiCaster
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_event_multi_caster.yml
+  href: com.microsoft.azure.storage.StorageEventMultiCaster.yml
   name: StorageEventMultiCaster<EVENT_TYPE,EVENT_LISTENER_TYPE>
   nameWithType: StorageEventMultiCaster<EVENT_TYPE,EVENT_LISTENER_TYPE>
   fullName: com.microsoft.azure.storage.StorageEventMultiCaster<EVENT_TYPE,EVENT_LISTENER_TYPE>
@@ -776,9 +776,9 @@ references:
     - id: EVENT_LISTENER_TYPE
       type: 2e41a3a8
       description: <p>An object that represents the type of the event listener. </p>
-- uid: com.microsoft.azure.storage._storage_exception
+- uid: com.microsoft.azure.storage.StorageException
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_exception.yml
+  href: com.microsoft.azure.storage.StorageException.yml
   name: StorageException
   nameWithType: StorageException
   fullName: com.microsoft.azure.storage.StorageException
@@ -786,9 +786,9 @@ references:
   summary: <p>Represents an exception for the Microsoft Azure storage service. </p>
   syntax:
     content: public class StorageException
-- uid: com.microsoft.azure.storage._storage_extended_error_information
+- uid: com.microsoft.azure.storage.StorageExtendedErrorInformation
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_extended_error_information.yml
+  href: com.microsoft.azure.storage.StorageExtendedErrorInformation.yml
   name: StorageExtendedErrorInformation
   nameWithType: StorageExtendedErrorInformation
   fullName: com.microsoft.azure.storage.StorageExtendedErrorInformation
@@ -796,9 +796,9 @@ references:
   summary: <p>Represents extended error information returned by the Microsoft Azure storage service. </p>
   syntax:
     content: public class StorageExtendedErrorInformation
-- uid: com.microsoft.azure.storage._storage_location
+- uid: com.microsoft.azure.storage.StorageLocation
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_location.yml
+  href: com.microsoft.azure.storage.StorageLocation.yml
   name: StorageLocation
   nameWithType: StorageLocation
   fullName: com.microsoft.azure.storage.StorageLocation
@@ -806,9 +806,9 @@ references:
   summary: <p>Represents a storage service location. </p>
   syntax:
     content: public enum StorageLocation
-- uid: com.microsoft.azure.storage._storage_uri
+- uid: com.microsoft.azure.storage.StorageUri
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._storage_uri.yml
+  href: com.microsoft.azure.storage.StorageUri.yml
   name: StorageUri
   nameWithType: StorageUri
   fullName: com.microsoft.azure.storage.StorageUri
@@ -816,18 +816,18 @@ references:
   summary: <p>Holds a list of URIs that represents the storage resource. </p>
   syntax:
     content: public class StorageUri
-- uid: com.microsoft.azure.storage._sub_stream_generator
+- uid: com.microsoft.azure.storage.SubStreamGenerator
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._sub_stream_generator.yml
+  href: com.microsoft.azure.storage.SubStreamGenerator.yml
   name: SubStreamGenerator
   nameWithType: SubStreamGenerator
   fullName: com.microsoft.azure.storage.SubStreamGenerator
   type: Class
   syntax:
     content: public class SubStreamGenerator
-- uid: com.microsoft.azure.storage._constants._analytics_constants
+- uid: com.microsoft.azure.storage.Constants.AnalyticsConstants
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._constants._analytics_constants.yml
+  href: com.microsoft.azure.storage.Constants.AnalyticsConstants.yml
   name: Constants.AnalyticsConstants
   nameWithType: Constants.AnalyticsConstants
   fullName: com.microsoft.azure.storage.Constants.AnalyticsConstants
@@ -835,9 +835,9 @@ references:
   summary: <p>Defines constants for ServiceProperties requests. </p>
   syntax:
     content: public class AnalyticsConstants
-- uid: com.microsoft.azure.storage._constants._encryption_constants
+- uid: com.microsoft.azure.storage.Constants.EncryptionConstants
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._constants._encryption_constants.yml
+  href: com.microsoft.azure.storage.Constants.EncryptionConstants.yml
   name: Constants.EncryptionConstants
   nameWithType: Constants.EncryptionConstants
   fullName: com.microsoft.azure.storage.Constants.EncryptionConstants
@@ -845,9 +845,9 @@ references:
   summary: <p>Defines constants for client encryption. </p>
   syntax:
     content: public class EncryptionConstants
-- uid: com.microsoft.azure.storage._constants._header_constants
+- uid: com.microsoft.azure.storage.Constants.HeaderConstants
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._constants._header_constants.yml
+  href: com.microsoft.azure.storage.Constants.HeaderConstants.yml
   name: Constants.HeaderConstants
   nameWithType: Constants.HeaderConstants
   fullName: com.microsoft.azure.storage.Constants.HeaderConstants
@@ -855,9 +855,9 @@ references:
   summary: <p>Defines constants for use with HTTP headers. </p>
   syntax:
     content: public class HeaderConstants
-- uid: com.microsoft.azure.storage._constants._query_constants
+- uid: com.microsoft.azure.storage.Constants.QueryConstants
   parent: com.microsoft.azure.storage
-  href: com.microsoft.azure.storage._constants._query_constants.yml
+  href: com.microsoft.azure.storage.Constants.QueryConstants.yml
   name: Constants.QueryConstants
   nameWithType: Constants.QueryConstants
   fullName: com.microsoft.azure.storage.Constants.QueryConstants

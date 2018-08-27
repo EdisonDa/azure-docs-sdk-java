@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner
+  id: ProxyResourceInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner.yml
+  langs:
+  - java
+  name: ProxyResourceInner
+  nameWithType: ProxyResourceInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner
+  type: Class
+  source:
+    remote:
+      path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/ProxyResourceInner.java
+      branch: mgmt-generated
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/ProxyResourceInner.java
+    startLine: 15
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: <p>The resource model definition for a ARM proxy resource. </p>
+  syntax:
+    content: public class ProxyResourceInner
+  inheritance:
+  - java.lang.Object
+  - ProxyResource
+references:
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetInner.yml
+  name: AssetInner
+  nameWithType: AssetInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetInner
+  type: Class
+  summary: <p>An Asset. </p>
+  syntax:
+    content: public class AssetInner extends ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ContentKeyPolicyInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ContentKeyPolicyInner.yml
+  name: ContentKeyPolicyInner
+  nameWithType: ContentKeyPolicyInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ContentKeyPolicyInner
+  type: Class
+  summary: <p>A Content Key Policy resource. </p>
+  syntax:
+    content: public class ContentKeyPolicyInner extends ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.JobInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.JobInner.yml
+  name: JobInner
+  nameWithType: JobInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.JobInner
+  type: Class
+  summary: <p>A Job resource type. The progress and state can be obtained by polling a Job or subscribing to events using EventGrid. </p>
+  syntax:
+    content: public class JobInner extends ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveOutputInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveOutputInner.yml
+  name: LiveOutputInner
+  nameWithType: LiveOutputInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.LiveOutputInner
+  type: Class
+  summary: <p>The Live Output. </p>
+  syntax:
+    content: public class LiveOutputInner extends ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  name: StreamingLocatorInner
+  nameWithType: StreamingLocatorInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  type: Class
+  summary: <p>A Streaming Locator resource. </p>
+  syntax:
+    content: public class StreamingLocatorInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingPolicyInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingPolicyInner.yml
+  name: StreamingPolicyInner
+  nameWithType: StreamingPolicyInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingPolicyInner
+  type: Class
+  summary: <p>A Streaming Policy resource. </p>
+  syntax:
+    content: public class StreamingPolicyInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TransformInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TransformInner.yml
+  name: TransformInner
+  nameWithType: TransformInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.TransformInner
+  type: Class
+  summary: <p>A Transform encapsulates the rules or instructions for generating desired outputs from input media, such as by transcoding or by extracting insights. After the Transform is created, it can be applied to input media by creating Jobs. </p>
+  syntax:
+    content: public class TransformInner

@@ -1,0 +1,167 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  id: ServiceBusQueueOutput
+  parent: com.microsoft.azure.functions.annotation
+  children:
+  - com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access()
+  - com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection()
+  - com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType()
+  - com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name()
+  - com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName()
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: ServiceBusQueueOutput
+  nameWithType: ServiceBusQueueOutput
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+      branch: master
+      repo: https://github.com/Azure/azure-functions-java-library
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 19
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public interface ServiceBusQueueOutput
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access()
+  id: access()
+  parent: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: access()
+  nameWithType: ServiceBusQueueOutput.access()
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access()
+  overload: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 28
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public AccessRights access() default AccessRights.MANAGE
+    return:
+      type: com.microsoft.azure.functions.annotation.AccessRights
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection()
+  id: connection()
+  parent: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: connection()
+  nameWithType: ServiceBusQueueOutput.connection()
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection()
+  overload: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 26
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String connection()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType()
+  id: dataType()
+  parent: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: dataType()
+  nameWithType: ServiceBusQueueOutput.dataType()
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType()
+  overload: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 22
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String dataType() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name()
+  id: name()
+  parent: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: ServiceBusQueueOutput.name()
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name()
+  overload: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 20
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName()
+  id: queueName()
+  parent: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput
+  href: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.yml
+  langs:
+  - java
+  name: queueName()
+  nameWithType: ServiceBusQueueOutput.queueName()
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName()
+  overload: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/ServiceBusQueueOutput.java
+    startLine: 24
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String queueName()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name*
+  name: name
+  nameWithType: ServiceBusQueueOutput.name
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.name
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType*
+  name: dataType
+  nameWithType: ServiceBusQueueOutput.dataType
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.dataType
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName*
+  name: queueName
+  nameWithType: ServiceBusQueueOutput.queueName
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.queueName
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection*
+  name: connection
+  nameWithType: ServiceBusQueueOutput.connection
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.connection
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access*
+  name: access
+  nameWithType: ServiceBusQueueOutput.access
+  fullName: com.microsoft.azure.functions.annotation.ServiceBusQueueOutput.access
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.AccessRights
+  parent: com.microsoft.azure.functions.annotation
+  href: com.microsoft.azure.functions.annotation.AccessRights.yml
+  name: AccessRights
+  nameWithType: AccessRights
+  fullName: com.microsoft.azure.functions.annotation.AccessRights
+  type: Enum
+  syntax:
+    content: public enum AccessRights

@@ -3,36 +3,36 @@ items:
 - uid: com.microsoft.azure.management.containerregistry.implementation
   id: implementation
   children:
-  - com.microsoft.azure.management.containerregistry.implementation._callback_config_inner
-  - com.microsoft.azure.management.containerregistry.implementation._check_name_availability_result_impl
-  - com.microsoft.azure.management.containerregistry.implementation._conta834361cb8df53e05c5f007018db26f5
-  - com.microsoft.azure.management.containerregistry.implementation._contained73eb3902740356a0d6dabc048bf44dd
-  - com.microsoft.azure.management.containerregistry.implementation._container_registry_manager
-  - com.microsoft.azure.management.containerregistry.implementation._event_info_inner
-  - com.microsoft.azure.management.containerregistry.implementation._event_inner
-  - com.microsoft.azure.management.containerregistry.implementation._operation_definition_inner
-  - com.microsoft.azure.management.containerregistry.implementation._operations_inner
-  - com.microsoft.azure.management.containerregistry.implementation._page_impl
-  - com.microsoft.azure.management.containerregistry.implementation._registries_impl
-  - com.microsoft.azure.management.containerregistry.implementation._registries_inner
-  - com.microsoft.azure.management.containerregistry.implementation._registry_credentials_impl
-  - com.microsoft.azure.management.containerregistry.implementation._registry_impl
-  - com.microsoft.azure.management.containerregistry.implementation._registry_inner
-  - com.microsoft.azure.management.containerregistry.implementation._registry_list_credentials_result_inner
-  - com.microsoft.azure.management.containerregistry.implementation._registry_name_status_inner
-  - com.microsoft.azure.management.containerregistry.implementation._registry_update_parameters_inner
-  - com.microsoft.azure.management.containerregistry.implementation._registry_usage_list_result_inner
-  - com.microsoft.azure.management.containerregistry.implementation._replication_inner
-  - com.microsoft.azure.management.containerregistry.implementation._replications_inner
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_create_parameters_inner
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_event_info_impl
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_impl
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_inner
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_operations_impl
-  - com.microsoft.azure.management.containerregistry.implementation._webhook_update_parameters_inner
-  - com.microsoft.azure.management.containerregistry.implementation._webhooks_client_impl
-  - com.microsoft.azure.management.containerregistry.implementation._webhooks_impl
-  - com.microsoft.azure.management.containerregistry.implementation._webhooks_inner
+  - com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner
+  - com.microsoft.azure.management.containerregistry.implementation.CheckNameAvailabilityResultImpl
+  - com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManagementClientImpl
+  - com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
+  - com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager.Configurable
+  - com.microsoft.azure.management.containerregistry.implementation.EventInfoInner
+  - com.microsoft.azure.management.containerregistry.implementation.EventInner
+  - com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner
+  - com.microsoft.azure.management.containerregistry.implementation.OperationsInner
+  - com.microsoft.azure.management.containerregistry.implementation.PageImpl
+  - com.microsoft.azure.management.containerregistry.implementation.RegistriesImpl
+  - com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryCredentialsImpl
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryInner
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryListCredentialsResultInner
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner
+  - com.microsoft.azure.management.containerregistry.implementation.RegistryUsageListResultInner
+  - com.microsoft.azure.management.containerregistry.implementation.ReplicationInner
+  - com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookEventInfoImpl
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookInner
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl
+  - com.microsoft.azure.management.containerregistry.implementation.WebhooksClientImpl
+  - com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl
+  - com.microsoft.azure.management.containerregistry.implementation.WebhooksInner
+  - com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner
   href: com.microsoft.azure.management.containerregistry.implementation.yml
   langs:
   - java
@@ -51,9 +51,9 @@ items:
   syntax:
     content: package com.microsoft.azure.management.containerregistry.implementation
 references:
-- uid: com.microsoft.azure.management.containerregistry.implementation._callback_config_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._callback_config_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner.yml
   name: CallbackConfigInner
   nameWithType: CallbackConfigInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.CallbackConfigInner
@@ -61,9 +61,9 @@ references:
   summary: <p>The configuration of service URI and custom headers for the webhook. </p>
   syntax:
     content: public class CallbackConfigInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._check_name_availability_result_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.CheckNameAvailabilityResultImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._check_name_availability_result_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.CheckNameAvailabilityResultImpl.yml
   name: CheckNameAvailabilityResultImpl
   nameWithType: CheckNameAvailabilityResultImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.CheckNameAvailabilityResultImpl
@@ -71,9 +71,9 @@ references:
   summary: <p>Implementation for CheckNameAvailabilityResult. </p>
   syntax:
     content: public class CheckNameAvailabilityResultImpl implements CheckNameAvailabilityResult
-- uid: com.microsoft.azure.management.containerregistry.implementation._contained73eb3902740356a0d6dabc048bf44dd
+- uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManagementClientImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._contained73eb3902740356a0d6dabc048bf44dd.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManagementClientImpl.yml
   name: ContainerRegistryManagementClientImpl
   nameWithType: ContainerRegistryManagementClientImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManagementClientImpl
@@ -81,9 +81,9 @@ references:
   summary: <p>Initializes a new instance of the ContainerRegistryManagementClientImpl class. </p>
   syntax:
     content: public class ContainerRegistryManagementClientImpl
-- uid: com.microsoft.azure.management.containerregistry.implementation._container_registry_manager
+- uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._container_registry_manager.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager.yml
   name: ContainerRegistryManager
   nameWithType: ContainerRegistryManager
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager
@@ -91,9 +91,9 @@ references:
   summary: <p>Entry point to Azure container registry management. </p>
   syntax:
     content: public class ContainerRegistryManager
-- uid: com.microsoft.azure.management.containerregistry.implementation._event_info_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.EventInfoInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._event_info_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.EventInfoInner.yml
   name: EventInfoInner
   nameWithType: EventInfoInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.EventInfoInner
@@ -101,9 +101,9 @@ references:
   summary: <p>The basic information of an event. </p>
   syntax:
     content: public class EventInfoInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._event_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.EventInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._event_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.EventInner.yml
   name: EventInner
   nameWithType: EventInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.EventInner
@@ -111,9 +111,9 @@ references:
   summary: <p>The event for a webhook. </p>
   syntax:
     content: public class EventInner extends EventInfoInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._operation_definition_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._operation_definition_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner.yml
   name: OperationDefinitionInner
   nameWithType: OperationDefinitionInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.OperationDefinitionInner
@@ -121,9 +121,9 @@ references:
   summary: <p>The definition of a container registry operation. </p>
   syntax:
     content: public class OperationDefinitionInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._operations_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.OperationsInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._operations_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.OperationsInner.yml
   name: OperationsInner
   nameWithType: OperationsInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.OperationsInner
@@ -131,9 +131,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Operations. </p>
   syntax:
     content: public class OperationsInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._page_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.PageImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._page_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.PageImpl.yml
   name: PageImpl<T>
   nameWithType: PageImpl<T>
   fullName: com.microsoft.azure.management.containerregistry.implementation.PageImpl<T>
@@ -148,9 +148,9 @@ references:
     - id: T
       type: 8ce1ecb9
       description: <p>type of Azure resource </p>
-- uid: com.microsoft.azure.management.containerregistry.implementation._registries_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registries_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistriesImpl.yml
   name: RegistriesImpl
   nameWithType: RegistriesImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesImpl
@@ -158,9 +158,9 @@ references:
   summary: <p>Implementation for Registries. </p>
   syntax:
     content: public class RegistriesImpl implements Registries
-- uid: com.microsoft.azure.management.containerregistry.implementation._registries_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registries_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner.yml
   name: RegistriesInner
   nameWithType: RegistriesInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistriesInner
@@ -168,9 +168,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Registries. </p>
   syntax:
     content: public class RegistriesInner implements InnerSupportsGet<RegistryInner>,InnerSupportsDelete<Void>,InnerSupportsListing<RegistryInner>
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_credentials_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryCredentialsImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_credentials_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryCredentialsImpl.yml
   name: RegistryCredentialsImpl
   nameWithType: RegistryCredentialsImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryCredentialsImpl
@@ -178,9 +178,9 @@ references:
   summary: <p>Implementation for RegistryCredentials. </p>
   syntax:
     content: public class RegistryCredentialsImpl implements RegistryCredentials
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl.yml
   name: RegistryImpl
   nameWithType: RegistryImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryImpl
@@ -188,9 +188,9 @@ references:
   summary: <p>Implementation for Registry and its create and update interfaces. </p>
   syntax:
     content: public class RegistryImpl implements Registry,Registry.Definition,Registry.Update
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryInner.yml
   name: RegistryInner
   nameWithType: RegistryInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryInner
@@ -198,9 +198,9 @@ references:
   summary: <p>An object that represents a container registry. </p>
   syntax:
     content: public class RegistryInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_list_credentials_result_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryListCredentialsResultInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_list_credentials_result_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryListCredentialsResultInner.yml
   name: RegistryListCredentialsResultInner
   nameWithType: RegistryListCredentialsResultInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryListCredentialsResultInner
@@ -208,9 +208,9 @@ references:
   summary: <p>The response from the ListCredentials operation. </p>
   syntax:
     content: public class RegistryListCredentialsResultInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_name_status_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_name_status_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner.yml
   name: RegistryNameStatusInner
   nameWithType: RegistryNameStatusInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryNameStatusInner
@@ -218,9 +218,9 @@ references:
   summary: <p>The result of a request to check the availability of a container registry name. </p>
   syntax:
     content: public class RegistryNameStatusInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_update_parameters_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_update_parameters_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner.yml
   name: RegistryUpdateParametersInner
   nameWithType: RegistryUpdateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryUpdateParametersInner
@@ -228,9 +228,9 @@ references:
   summary: <p>The parameters for updating a container registry. </p>
   syntax:
     content: public class RegistryUpdateParametersInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._registry_usage_list_result_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.RegistryUsageListResultInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._registry_usage_list_result_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.RegistryUsageListResultInner.yml
   name: RegistryUsageListResultInner
   nameWithType: RegistryUsageListResultInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.RegistryUsageListResultInner
@@ -238,9 +238,9 @@ references:
   summary: <p>The result of a request to get container registry quota usages. </p>
   syntax:
     content: public class RegistryUsageListResultInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._replication_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.ReplicationInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._replication_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.ReplicationInner.yml
   name: ReplicationInner
   nameWithType: ReplicationInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.ReplicationInner
@@ -248,9 +248,9 @@ references:
   summary: <p>An object that represents a replication for a container registry. </p>
   syntax:
     content: public class ReplicationInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._replications_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._replications_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner.yml
   name: ReplicationsInner
   nameWithType: ReplicationsInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.ReplicationsInner
@@ -258,9 +258,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in Replications. </p>
   syntax:
     content: public class ReplicationsInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_create_parameters_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_create_parameters_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner.yml
   name: WebhookCreateParametersInner
   nameWithType: WebhookCreateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookCreateParametersInner
@@ -268,9 +268,9 @@ references:
   summary: <p>The parameters for creating a webhook. </p>
   syntax:
     content: public class WebhookCreateParametersInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_event_info_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookEventInfoImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_event_info_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookEventInfoImpl.yml
   name: WebhookEventInfoImpl
   nameWithType: WebhookEventInfoImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookEventInfoImpl
@@ -278,9 +278,9 @@ references:
   summary: <p>Response containing the webhook event info. </p>
   syntax:
     content: public class WebhookEventInfoImpl implements WebhookEventInfo
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl.yml
   name: WebhookImpl
   nameWithType: WebhookImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookImpl
@@ -288,9 +288,9 @@ references:
   summary: <p>Implementation for Webhook. </p>
   syntax:
     content: public class WebhookImpl implements Webhook,Webhook.WebhookDefinition<Registry.DefinitionStages.WithCreate>,Webhook.UpdateDefinition<Registry.Update>,Webhook.UpdateResource<Registry.Update>,Webhook.Update
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookInner.yml
   name: WebhookInner
   nameWithType: WebhookInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookInner
@@ -298,9 +298,9 @@ references:
   summary: <p>An object that represents a webhook for a container registry. </p>
   syntax:
     content: public class WebhookInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_operations_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_operations_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl.yml
   name: WebhookOperationsImpl
   nameWithType: WebhookOperationsImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookOperationsImpl
@@ -308,9 +308,9 @@ references:
   summary: <p>Represents a webhook collection associated with a container registry. </p>
   syntax:
     content: public class WebhookOperationsImpl implements WebhookOperations
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhooks_client_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksClientImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhooks_client_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhooksClientImpl.yml
   name: WebhooksClientImpl
   nameWithType: WebhooksClientImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksClientImpl
@@ -318,9 +318,9 @@ references:
   summary: <p>Represents a webhook collection associated with a container registry. </p>
   syntax:
     content: public class WebhooksClientImpl implements Registries.WebhooksClient
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhooks_impl
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhooks_impl.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl.yml
   name: WebhooksImpl
   nameWithType: WebhooksImpl
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksImpl
@@ -328,9 +328,9 @@ references:
   summary: <p>Represents a webhook collection associated with a container registry. </p>
   syntax:
     content: public class WebhooksImpl
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhooks_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhooks_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner.yml
   name: WebhooksInner
   nameWithType: WebhooksInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhooksInner
@@ -338,9 +338,9 @@ references:
   summary: <p>An instance of this class provides access to all the operations defined in WebhookOperations. </p>
   syntax:
     content: public class WebhooksInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._webhook_update_parameters_inner
+- uid: com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._webhook_update_parameters_inner.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner.yml
   name: WebhookUpdateParametersInner
   nameWithType: WebhookUpdateParametersInner
   fullName: com.microsoft.azure.management.containerregistry.implementation.WebhookUpdateParametersInner
@@ -348,9 +348,9 @@ references:
   summary: <p>The parameters for updating a webhook. </p>
   syntax:
     content: public class WebhookUpdateParametersInner
-- uid: com.microsoft.azure.management.containerregistry.implementation._conta834361cb8df53e05c5f007018db26f5
+- uid: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager.Configurable
   parent: com.microsoft.azure.management.containerregistry.implementation
-  href: com.microsoft.azure.management.containerregistry.implementation._conta834361cb8df53e05c5f007018db26f5.yml
+  href: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager.Configurable.yml
   name: ContainerRegistryManager.Configurable
   nameWithType: ContainerRegistryManager.Configurable
   fullName: com.microsoft.azure.management.containerregistry.implementation.ContainerRegistryManager.Configurable

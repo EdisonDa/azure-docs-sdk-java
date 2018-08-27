@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput
+  id: EventHubOutput
+  parent: com.microsoft.azure.functions.annotation
+  children:
+  - com.microsoft.azure.functions.annotation.EventHubOutput.connection()
+  - com.microsoft.azure.functions.annotation.EventHubOutput.dataType()
+  - com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName()
+  - com.microsoft.azure.functions.annotation.EventHubOutput.name()
+  href: com.microsoft.azure.functions.annotation.EventHubOutput.yml
+  langs:
+  - java
+  name: EventHubOutput
+  nameWithType: EventHubOutput
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+      branch: master
+      repo: https://github.com/Azure/azure-functions-java-library
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+    startLine: 19
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public interface EventHubOutput
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.connection()
+  id: connection()
+  parent: com.microsoft.azure.functions.annotation.EventHubOutput
+  href: com.microsoft.azure.functions.annotation.EventHubOutput.yml
+  langs:
+  - java
+  name: connection()
+  nameWithType: EventHubOutput.connection()
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.connection()
+  overload: com.microsoft.azure.functions.annotation.EventHubOutput.connection*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+    startLine: 26
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String connection()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.dataType()
+  id: dataType()
+  parent: com.microsoft.azure.functions.annotation.EventHubOutput
+  href: com.microsoft.azure.functions.annotation.EventHubOutput.yml
+  langs:
+  - java
+  name: dataType()
+  nameWithType: EventHubOutput.dataType()
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.dataType()
+  overload: com.microsoft.azure.functions.annotation.EventHubOutput.dataType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+    startLine: 22
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String dataType() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName()
+  id: eventHubName()
+  parent: com.microsoft.azure.functions.annotation.EventHubOutput
+  href: com.microsoft.azure.functions.annotation.EventHubOutput.yml
+  langs:
+  - java
+  name: eventHubName()
+  nameWithType: EventHubOutput.eventHubName()
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName()
+  overload: com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+    startLine: 24
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String eventHubName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.name()
+  id: name()
+  parent: com.microsoft.azure.functions.annotation.EventHubOutput
+  href: com.microsoft.azure.functions.annotation.EventHubOutput.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: EventHubOutput.name()
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.name()
+  overload: com.microsoft.azure.functions.annotation.EventHubOutput.name*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/EventHubOutput.java
+    startLine: 20
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.name*
+  name: name
+  nameWithType: EventHubOutput.name
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.name
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.dataType*
+  name: dataType
+  nameWithType: EventHubOutput.dataType
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.dataType
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName*
+  name: eventHubName
+  nameWithType: EventHubOutput.eventHubName
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.eventHubName
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.EventHubOutput.connection*
+  name: connection
+  nameWithType: EventHubOutput.connection
+  fullName: com.microsoft.azure.functions.annotation.EventHubOutput.connection
+  package: com.microsoft.azure.functions.annotation

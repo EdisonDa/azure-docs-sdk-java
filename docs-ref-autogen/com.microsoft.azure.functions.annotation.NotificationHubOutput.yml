@@ -1,0 +1,184 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  id: NotificationHubOutput
+  parent: com.microsoft.azure.functions.annotation
+  children:
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.connection()
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType()
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName()
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.name()
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.platform()
+  - com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression()
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: NotificationHubOutput
+  nameWithType: NotificationHubOutput
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  type: Interface
+  source:
+    remote: &o0
+      path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+      branch: master
+      repo: https://github.com/Azure/azure-functions-java-library
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 19
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public interface NotificationHubOutput
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.connection()
+  id: connection()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: connection()
+  nameWithType: NotificationHubOutput.connection()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.connection()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.connection*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 28
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String connection()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType()
+  id: dataType()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: dataType()
+  nameWithType: NotificationHubOutput.dataType()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 22
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String dataType() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName()
+  id: hubName()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: hubName()
+  nameWithType: NotificationHubOutput.hubName()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 26
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String hubName()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.name()
+  id: name()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: name()
+  nameWithType: NotificationHubOutput.name()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.name()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.name*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 20
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String name()
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.platform()
+  id: platform()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: platform()
+  nameWithType: NotificationHubOutput.platform()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.platform()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.platform*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 30
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String platform() default ""
+    return:
+      type: "26831127"
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression()
+  id: tagExpression()
+  parent: com.microsoft.azure.functions.annotation.NotificationHubOutput
+  href: com.microsoft.azure.functions.annotation.NotificationHubOutput.yml
+  langs:
+  - java
+  name: tagExpression()
+  nameWithType: NotificationHubOutput.tagExpression()
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression()
+  overload: com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression*
+  type: Method
+  source:
+    remote: *o0
+    path: src/main/java/com/microsoft/azure/functions/annotation/NotificationHubOutput.java
+    startLine: 24
+  package: com.microsoft.azure.functions.annotation
+  syntax:
+    content: public String tagExpression() default ""
+    return:
+      type: "26831127"
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.name*
+  name: name
+  nameWithType: NotificationHubOutput.name
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.name
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType*
+  name: dataType
+  nameWithType: NotificationHubOutput.dataType
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.dataType
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression*
+  name: tagExpression
+  nameWithType: NotificationHubOutput.tagExpression
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.tagExpression
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName*
+  name: hubName
+  nameWithType: NotificationHubOutput.hubName
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.hubName
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.connection*
+  name: connection
+  nameWithType: NotificationHubOutput.connection
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.connection
+  package: com.microsoft.azure.functions.annotation
+- uid: com.microsoft.azure.functions.annotation.NotificationHubOutput.platform*
+  name: platform
+  nameWithType: NotificationHubOutput.platform
+  fullName: com.microsoft.azure.functions.annotation.NotificationHubOutput.platform
+  package: com.microsoft.azure.functions.annotation

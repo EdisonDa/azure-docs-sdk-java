@@ -1,0 +1,410 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  id: ApplicationInsightsTelemetryAutoConfigurationTests
+  parent: com.microsoft.applicationinsights.boot
+  children:
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads()
+  - com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown()
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: ApplicationInsightsTelemetryAutoConfigurationTests
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  type: Class
+  source:
+    remote: &o0
+      path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+      branch: master
+      repo: https://github.com/Microsoft/ApplicationInsights-Java
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 59
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public class ApplicationInsightsTelemetryAutoConfigurationTests
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault()
+  id: heartBeatModuleShouldBeEnabledByDefault()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: heartBeatModuleShouldBeEnabledByDefault()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 272
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void heartBeatModuleShouldBeEnabledByDefault()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  id: internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 196
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void internalLoggerShouldBeInitializedBeforeTelemetryConfiguration()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore()
+  id: restore()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: restore()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.restore()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 64
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void restore()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules()
+  id: shouldBeAbleToAddCustomModules()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToAddCustomModules()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 221
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToAddCustomModules()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters()
+  id: shouldBeAbleToConfigureJmxPerformanceCounters()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToConfigureJmxPerformanceCounters()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 243
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToConfigureJmxPerformanceCounters()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters()
+  id: shouldBeAbleToConfigureJvmPerformanceCounters()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToConfigureJvmPerformanceCounters()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 260
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToConfigureJvmPerformanceCounters()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  id: shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 164
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToConfigureSamplingTelemetryProcessor()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel()
+  id: shouldBeAbleToConfigureTelemetryChannel()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToConfigureTelemetryChannel()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 144
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToConfigureTelemetryChannel()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules()
+  id: shouldBeAbleToDisableAllWebModules()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToDisableAllWebModules()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 184
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToDisableAllWebModules()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules()
+  id: shouldBeAbleToDisableDefaultModules()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToDisableDefaultModules()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 209
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToDisableDefaultModules()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty()
+  id: shouldBeAbleToDisableInstrumentationByProperty()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldBeAbleToDisableInstrumentationByProperty()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 131
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldBeAbleToDisableInstrumentationByProperty()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet()
+  id: shouldNotFailIfInstrumentationKeyIsNotSet()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldNotFailIfInstrumentationKeyIsNotSet()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 121
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldNotFailIfInstrumentationKeyIsNotSet()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient()
+  id: shouldReloadInstrumentationKeyOnTelemetryClient()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldReloadInstrumentationKeyOnTelemetryClient()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 102
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldReloadInstrumentationKeyOnTelemetryClient()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase()
+  id: shouldSetInstrumentationKeyFromRelaxedCase()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldSetInstrumentationKeyFromRelaxedCase()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 85
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldSetInstrumentationKeyFromRelaxedCase()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads()
+  id: shouldSetInstrumentationKeyWhenContextLoads()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: shouldSetInstrumentationKeyWhenContextLoads()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 69
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public void shouldSetInstrumentationKeyWhenContextLoads()
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown()
+  id: tearDown()
+  parent: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests
+  href: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.yml
+  langs:
+  - java
+  name: tearDown()
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.tearDown()
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown()
+  overload: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown*
+  type: Method
+  source:
+    remote: *o0
+    path: azure-application-insights-spring-boot-starter/src/test/java/com/microsoft/applicationinsights/boot/ApplicationInsightsTelemetryAutoConfigurationTests.java
+    startLine: 324
+  package: com.microsoft.applicationinsights.boot
+  syntax:
+    content: public static void tearDown()
+references:
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore*
+  name: restore
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.restore
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.restore
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads*
+  name: shouldSetInstrumentationKeyWhenContextLoads
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyWhenContextLoads
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase*
+  name: shouldSetInstrumentationKeyFromRelaxedCase
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldSetInstrumentationKeyFromRelaxedCase
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient*
+  name: shouldReloadInstrumentationKeyOnTelemetryClient
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldReloadInstrumentationKeyOnTelemetryClient
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet*
+  name: shouldNotFailIfInstrumentationKeyIsNotSet
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldNotFailIfInstrumentationKeyIsNotSet
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty*
+  name: shouldBeAbleToDisableInstrumentationByProperty
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableInstrumentationByProperty
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel*
+  name: shouldBeAbleToConfigureTelemetryChannel
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureTelemetryChannel
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor*
+  name: shouldBeAbleToConfigureSamplingTelemetryProcessor
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureSamplingTelemetryProcessor
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules*
+  name: shouldBeAbleToDisableAllWebModules
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableAllWebModules
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration*
+  name: internalLoggerShouldBeInitializedBeforeTelemetryConfiguration
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.internalLoggerShouldBeInitializedBeforeTelemetryConfiguration
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules*
+  name: shouldBeAbleToDisableDefaultModules
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToDisableDefaultModules
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules*
+  name: shouldBeAbleToAddCustomModules
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToAddCustomModules
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters*
+  name: shouldBeAbleToConfigureJmxPerformanceCounters
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJmxPerformanceCounters
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters*
+  name: shouldBeAbleToConfigureJvmPerformanceCounters
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.shouldBeAbleToConfigureJvmPerformanceCounters
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault*
+  name: heartBeatModuleShouldBeEnabledByDefault
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.heartBeatModuleShouldBeEnabledByDefault
+  package: com.microsoft.applicationinsights.boot
+- uid: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown*
+  name: tearDown
+  nameWithType: ApplicationInsightsTelemetryAutoConfigurationTests.tearDown
+  fullName: com.microsoft.applicationinsights.boot.ApplicationInsightsTelemetryAutoConfigurationTests.tearDown
+  package: com.microsoft.applicationinsights.boot

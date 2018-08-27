@@ -1,0 +1,284 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  id: Builder
+  parent: com.microsoft.azure.cosmosdb.rx
+  children:
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build()
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy(ConnectionPolicy)
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel(ConsistencyLevel)
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey(String)
+  - com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint(String)
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: AsyncDocumentClient.Builder
+  nameWithType: AsyncDocumentClient.Builder
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  type: Class
+  source:
+    remote: &o0
+      path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+      branch: master
+      repo: https://github.com/Azure/azure-cosmosdb-java
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 100
+  package: com.microsoft.azure.cosmosdb.rx
+  summary: >-
+    <p>Helper class to build <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>
+
+    <p>
+
+      <pre>
+
+        <code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
+
+                .withServiceEndpoint(serviceEndpoint)
+
+                .withMasterKey(masterKey)
+
+                .withConnectionPolicy(ConnectionPolicy.GetDefault())
+
+                .withConsistencyLevel(ConsistencyLevel.Session)
+
+                .build();
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax: &o1
+    content: public class Builder
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build()
+  id: build()
+  parent: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: build()
+  nameWithType: AsyncDocumentClient.Builder.build()
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build()
+  overload: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build*
+  type: Method
+  source:
+    remote: *o0
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 151
+  package: com.microsoft.azure.cosmosdb.rx
+  syntax:
+    content: public AsyncDocumentClient build()
+    return:
+      type: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy(ConnectionPolicy)
+  id: withConnectionPolicy(ConnectionPolicy)
+  parent: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: withConnectionPolicy(ConnectionPolicy connectionPolicy)
+  nameWithType: AsyncDocumentClient.Builder.withConnectionPolicy(ConnectionPolicy connectionPolicy)
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy(ConnectionPolicy connectionPolicy)
+  overload: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy*
+  type: Method
+  source:
+    remote: *o0
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 140
+  package: com.microsoft.azure.cosmosdb.rx
+  syntax:
+    content: public Builder withConnectionPolicy(ConnectionPolicy connectionPolicy)
+    parameters:
+    - id: connectionPolicy
+      type: com.microsoft.azure.cosmosdb.ConnectionPolicy
+    return:
+      type: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel(ConsistencyLevel)
+  id: withConsistencyLevel(ConsistencyLevel)
+  parent: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: withConsistencyLevel(ConsistencyLevel desiredConsistencyLevel)
+  nameWithType: AsyncDocumentClient.Builder.withConsistencyLevel(ConsistencyLevel desiredConsistencyLevel)
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel(ConsistencyLevel desiredConsistencyLevel)
+  overload: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel*
+  type: Method
+  source:
+    remote: *o0
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 122
+  package: com.microsoft.azure.cosmosdb.rx
+  syntax:
+    content: public Builder withConsistencyLevel(ConsistencyLevel desiredConsistencyLevel)
+    parameters:
+    - id: desiredConsistencyLevel
+      type: com.microsoft.azure.cosmosdb.ConsistencyLevel
+    return:
+      type: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey(String)
+  id: withMasterKey(String)
+  parent: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: withMasterKey(String masterKey)
+  nameWithType: AsyncDocumentClient.Builder.withMasterKey(String masterKey)
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey(String masterKey)
+  overload: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey*
+  type: Method
+  source:
+    remote: *o0
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 117
+  package: com.microsoft.azure.cosmosdb.rx
+  syntax:
+    content: public Builder withMasterKey(String masterKey)
+    parameters:
+    - id: masterKey
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint(String)
+  id: withServiceEndpoint(String)
+  parent: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  langs:
+  - java
+  name: withServiceEndpoint(String serviceEndpoint)
+  nameWithType: AsyncDocumentClient.Builder.withServiceEndpoint(String serviceEndpoint)
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint(String serviceEndpoint)
+  overload: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint*
+  type: Method
+  source:
+    remote: *o0
+    path: sdk/src/main/java/com/microsoft/azure/cosmosdb/rx/AsyncDocumentClient.java
+    startLine: 108
+  package: com.microsoft.azure.cosmosdb.rx
+  syntax:
+    content: public Builder withServiceEndpoint(String serviceEndpoint)
+    parameters:
+    - id: serviceEndpoint
+      type: "26831127"
+    return:
+      type: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint*
+  name: withServiceEndpoint
+  nameWithType: AsyncDocumentClient.Builder.withServiceEndpoint
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withServiceEndpoint
+  package: com.microsoft.azure.cosmosdb.rx
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey*
+  name: withMasterKey
+  nameWithType: AsyncDocumentClient.Builder.withMasterKey
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withMasterKey
+  package: com.microsoft.azure.cosmosdb.rx
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel*
+  name: withConsistencyLevel
+  nameWithType: AsyncDocumentClient.Builder.withConsistencyLevel
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConsistencyLevel
+  package: com.microsoft.azure.cosmosdb.rx
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy*
+  name: withConnectionPolicy
+  nameWithType: AsyncDocumentClient.Builder.withConnectionPolicy
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.withConnectionPolicy
+  package: com.microsoft.azure.cosmosdb.rx
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build*
+  name: build
+  nameWithType: AsyncDocumentClient.Builder.build
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.build
+  package: com.microsoft.azure.cosmosdb.rx
+- uid: com.microsoft.azure.cosmosdb.ConnectionPolicy
+  parent: com.microsoft.azure.cosmosdb
+  href: com.microsoft.azure.cosmosdb.ConnectionPolicy.yml
+  name: ConnectionPolicy
+  nameWithType: ConnectionPolicy
+  fullName: com.microsoft.azure.cosmosdb.ConnectionPolicy
+  type: Class
+  summary: <p>Represents the Connection policy associated with a DocumentClient in the Azure Cosmos DB database service. </p>
+  syntax:
+    content: public class ConnectionPolicy
+- uid: com.microsoft.azure.cosmosdb.ConsistencyLevel
+  parent: com.microsoft.azure.cosmosdb
+  href: com.microsoft.azure.cosmosdb.ConsistencyLevel.yml
+  name: ConsistencyLevel
+  nameWithType: ConsistencyLevel
+  fullName: com.microsoft.azure.cosmosdb.ConsistencyLevel
+  type: Enum
+  summary: >-
+    <p>Represents the consistency levels supported for Cosmos DB client operations in the Azure Cosmos DB database service. </p>
+
+    <p>The requested ConsistencyLevel must match or be weaker than that provisioned for the database account. Consistency levels by order of strength are Strong, BoundedStaleness, Session and Eventual. </p>
+  syntax:
+    content: public enum ConsistencyLevel
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  parent: com.microsoft.azure.cosmosdb.rx
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder.yml
+  name: AsyncDocumentClient.Builder
+  nameWithType: AsyncDocumentClient.Builder
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder
+  type: Class
+  summary: >-
+    <p>Helper class to build <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> instances as logical representation of the Azure Cosmos DB database service.</p>
+
+    <p>
+
+      <pre>
+
+        <code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
+
+                .withServiceEndpoint(serviceEndpoint)
+
+                .withMasterKey(masterKey)
+
+                .withConnectionPolicy(ConnectionPolicy.GetDefault())
+
+                .withConsistencyLevel(ConsistencyLevel.Session)
+
+                .build();
+
+        </code>
+
+      </pre>
+
+    </p>
+  syntax: *o1
+- uid: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
+  parent: com.microsoft.azure.cosmosdb.rx
+  href: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.yml
+  name: AsyncDocumentClient
+  nameWithType: AsyncDocumentClient
+  fullName: com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient
+  type: Interface
+  summary: >-
+    <p>Provides a client-side logical representation of the Azure Cosmos DB database service. This async client is used to configure and execute requests against the service.</p>
+
+    <p>
+
+      <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient" data-throw-if-not-resolved="false">AsyncDocumentClient</xref> async APIs return <a href="https://github.com/ReactiveX/RxJava">rxJava</a>'s<code>Observable 
+
+        </code> , and so you can use rxJava <xref uid="" data-throw-if-not-resolved="false">Observable</xref> functionalities. <b>The async <xref uid="" data-throw-if-not-resolved="false">Observable</xref> based APIs perform the requested operation only after subscription.</b></p>
+
+    <p>The service client encapsulates the endpoint and credentials used to access the Cosmos DB service.</p>
+
+    <p>To instantiate you can use the <xref uid="com.microsoft.azure.cosmosdb.rx.AsyncDocumentClient.Builder" data-throw-if-not-resolved="false">Builder</xref><pre><code>AsyncDocumentClient client = new AsyncDocumentClient.Builder()
+
+                .withServiceEndpoint(serviceEndpoint)
+
+                .withMasterKey(masterKey)
+
+                .withConnectionPolicy(ConnectionPolicy.GetDefault())
+
+                .withConsistencyLevel(ConsistencyLevel.Session)
+
+                .build();
+
+        </code></pre></p>
+  syntax:
+    content: public interface AsyncDocumentClient

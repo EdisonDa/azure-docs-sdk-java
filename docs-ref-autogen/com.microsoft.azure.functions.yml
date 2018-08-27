@@ -3,14 +3,14 @@ items:
 - uid: com.microsoft.azure.functions
   id: functions
   children:
-  - com.microsoft.azure.functions._execution_context
-  - com.microsoft.azure.functions._http_method
-  - com.microsoft.azure.functions._http_request_message
-  - com.microsoft.azure.functions._http_response_message
-  - com.microsoft.azure.functions._http_response_message._builder
-  - com.microsoft.azure.functions._http_status
-  - com.microsoft.azure.functions._output_binding
-  - com.microsoft.azure.functions._web_hook_type
+  - com.microsoft.azure.functions.ExecutionContext
+  - com.microsoft.azure.functions.HttpMethod
+  - com.microsoft.azure.functions.HttpRequestMessage
+  - com.microsoft.azure.functions.HttpResponseMessage
+  - com.microsoft.azure.functions.HttpResponseMessage.Builder
+  - com.microsoft.azure.functions.HttpStatus
+  - com.microsoft.azure.functions.OutputBinding
+  - com.microsoft.azure.functions.WebHookType
   href: com.microsoft.azure.functions.yml
   langs:
   - java
@@ -35,9 +35,9 @@ references:
   summary: <p>Annotations and support classes for use as part of the Java API for Azure Functions. </p>
   syntax:
     content: package com.microsoft.azure.functions.annotation
-- uid: com.microsoft.azure.functions._execution_context
+- uid: com.microsoft.azure.functions.ExecutionContext
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._execution_context.yml
+  href: com.microsoft.azure.functions.ExecutionContext.yml
   name: ExecutionContext
   nameWithType: ExecutionContext
   fullName: com.microsoft.azure.functions.ExecutionContext
@@ -48,9 +48,9 @@ references:
     <p></p>
   syntax:
     content: public interface ExecutionContext
-- uid: com.microsoft.azure.functions._http_method
+- uid: com.microsoft.azure.functions.HttpMethod
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._http_method.yml
+  href: com.microsoft.azure.functions.HttpMethod.yml
   name: HttpMethod
   nameWithType: HttpMethod
   fullName: com.microsoft.azure.functions.HttpMethod
@@ -61,15 +61,15 @@ references:
     <p></p>
   syntax:
     content: public enum HttpMethod
-- uid: com.microsoft.azure.functions._http_request_message
+- uid: com.microsoft.azure.functions.HttpRequestMessage
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._http_request_message.yml
+  href: com.microsoft.azure.functions.HttpRequestMessage.yml
   name: HttpRequestMessage<T>
   nameWithType: HttpRequestMessage<T>
   fullName: com.microsoft.azure.functions.HttpRequestMessage<T>
   type: Interface
   summary: >-
-    <p>An HttpRequestMessage instance is provided to Azure functions that use <xref uid="com.microsoft.azure.functions.annotation._http_trigger" data-throw-if-not-resolved="false">HTTP Triggers</xref>. For an example of how to use the http functionality of Azure Functions, refer to the example in the <xref uid="com.microsoft.azure.functions.annotation._http_trigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref></p>
+    <p>An HttpRequestMessage instance is provided to Azure functions that use <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">HTTP Triggers</xref>. For an example of how to use the http functionality of Azure Functions, refer to the example in the <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref></p>
 
     <p></p>
   syntax:
@@ -78,22 +78,22 @@ references:
     - id: T
       type: 8ce1ecb9
       description: <p>The type of the body content that is expected to be received as part of this HTTP request. </p>
-- uid: com.microsoft.azure.functions._http_response_message
+- uid: com.microsoft.azure.functions.HttpResponseMessage
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._http_response_message.yml
+  href: com.microsoft.azure.functions.HttpResponseMessage.yml
   name: HttpResponseMessage
   nameWithType: HttpResponseMessage
   fullName: com.microsoft.azure.functions.HttpResponseMessage
   type: Interface
   summary: >-
-    <p>An HttpResponseMessage instance is returned by Azure Functions methods that are triggered by an <xref uid="com.microsoft.azure.functions.annotation._http_trigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref>.</p>
+    <p>An HttpResponseMessage instance is returned by Azure Functions methods that are triggered by an <xref uid="com.microsoft.azure.functions.annotation.HttpTrigger" data-throw-if-not-resolved="false">com.microsoft.azure.functions.annotation.HttpTrigger</xref>.</p>
 
     <p></p>
   syntax:
     content: public interface HttpResponseMessage
-- uid: com.microsoft.azure.functions._http_status
+- uid: com.microsoft.azure.functions.HttpStatus
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._http_status.yml
+  href: com.microsoft.azure.functions.HttpStatus.yml
   name: HttpStatus
   nameWithType: HttpStatus
   fullName: com.microsoft.azure.functions.HttpStatus
@@ -104,9 +104,9 @@ references:
     <p></p>
   syntax:
     content: public enum HttpStatus
-- uid: com.microsoft.azure.functions._output_binding
+- uid: com.microsoft.azure.functions.OutputBinding
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._output_binding.yml
+  href: com.microsoft.azure.functions.OutputBinding.yml
   name: OutputBinding<T>
   nameWithType: OutputBinding<T>
   fullName: com.microsoft.azure.functions.OutputBinding<T>
@@ -116,9 +116,9 @@ references:
     typeParameters:
     - id: T
       type: 8ce1ecb9
-- uid: com.microsoft.azure.functions._web_hook_type
+- uid: com.microsoft.azure.functions.WebHookType
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._web_hook_type.yml
+  href: com.microsoft.azure.functions.WebHookType.yml
   name: WebHookType
   nameWithType: WebHookType
   fullName: com.microsoft.azure.functions.WebHookType
@@ -167,9 +167,9 @@ references:
     </p>
   syntax:
     content: public enum WebHookType
-- uid: com.microsoft.azure.functions._http_response_message._builder
+- uid: com.microsoft.azure.functions.HttpResponseMessage.Builder
   parent: com.microsoft.azure.functions
-  href: com.microsoft.azure.functions._http_response_message._builder.yml
+  href: com.microsoft.azure.functions.HttpResponseMessage.Builder.yml
   name: HttpResponseMessage.Builder
   nameWithType: HttpResponseMessage.Builder
   fullName: com.microsoft.azure.functions.HttpResponseMessage.Builder

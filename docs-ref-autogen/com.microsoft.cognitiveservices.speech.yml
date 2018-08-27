@@ -3,26 +3,26 @@ items:
 - uid: com.microsoft.cognitiveservices.speech
   id: speech
   children:
-  - com.microsoft.cognitiveservices.speech._audio_input_stream
-  - com.microsoft.cognitiveservices.speech._audio_input_stream_format
-  - com.microsoft.cognitiveservices.speech._factory_parameter_names
-  - com.microsoft.cognitiveservices.speech._keyword_recognition_model
-  - com.microsoft.cognitiveservices.speech._output_format
-  - com.microsoft.cognitiveservices.speech._parameter_collection
-  - com.microsoft.cognitiveservices.speech._recognition_error_event_args
-  - com.microsoft.cognitiveservices.speech._recognition_event_args
-  - com.microsoft.cognitiveservices.speech._recognition_event_type
-  - com.microsoft.cognitiveservices.speech._recognition_status
-  - com.microsoft.cognitiveservices.speech._recognizer
-  - com.microsoft.cognitiveservices.speech._recognizer_parameter_names
-  - com.microsoft.cognitiveservices.speech._result_parameter_names
-  - com.microsoft.cognitiveservices.speech._session_event_args
-  - com.microsoft.cognitiveservices.speech._session_event_type
-  - com.microsoft.cognitiveservices.speech._speech_factory
-  - com.microsoft.cognitiveservices.speech._speech_recognition_result
-  - com.microsoft.cognitiveservices.speech._speech_recognition_result._recognition_result_collection
-  - com.microsoft.cognitiveservices.speech._speech_recognition_result_event_args
-  - com.microsoft.cognitiveservices.speech._speech_recognizer
+  - com.microsoft.cognitiveservices.speech.AudioInputStream
+  - com.microsoft.cognitiveservices.speech.AudioInputStreamFormat
+  - com.microsoft.cognitiveservices.speech.FactoryParameterNames
+  - com.microsoft.cognitiveservices.speech.KeywordRecognitionModel
+  - com.microsoft.cognitiveservices.speech.OutputFormat
+  - com.microsoft.cognitiveservices.speech.ParameterCollection
+  - com.microsoft.cognitiveservices.speech.RecognitionErrorEventArgs
+  - com.microsoft.cognitiveservices.speech.RecognitionEventArgs
+  - com.microsoft.cognitiveservices.speech.RecognitionEventType
+  - com.microsoft.cognitiveservices.speech.RecognitionStatus
+  - com.microsoft.cognitiveservices.speech.Recognizer
+  - com.microsoft.cognitiveservices.speech.RecognizerParameterNames
+  - com.microsoft.cognitiveservices.speech.ResultParameterNames
+  - com.microsoft.cognitiveservices.speech.SessionEventArgs
+  - com.microsoft.cognitiveservices.speech.SessionEventType
+  - com.microsoft.cognitiveservices.speech.SpeechFactory
+  - com.microsoft.cognitiveservices.speech.SpeechRecognitionResult
+  - com.microsoft.cognitiveservices.speech.SpeechRecognitionResult.RecognitionResultCollection
+  - com.microsoft.cognitiveservices.speech.SpeechRecognitionResultEventArgs
+  - com.microsoft.cognitiveservices.speech.SpeechRecognizer
   href: com.microsoft.cognitiveservices.speech.yml
   langs:
   - java
@@ -63,9 +63,9 @@ references:
   type: Namespace
   syntax:
     content: package com.microsoft.cognitiveservices.speech.util
-- uid: com.microsoft.cognitiveservices.speech._audio_input_stream
+- uid: com.microsoft.cognitiveservices.speech.AudioInputStream
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._audio_input_stream.yml
+  href: com.microsoft.cognitiveservices.speech.AudioInputStream.yml
   name: AudioInputStream
   nameWithType: AudioInputStream
   fullName: com.microsoft.cognitiveservices.speech.AudioInputStream
@@ -73,18 +73,18 @@ references:
   summary: <p>Defines audio input stream. </p>
   syntax:
     content: public class AudioInputStream
-- uid: com.microsoft.cognitiveservices.speech._audio_input_stream_format
+- uid: com.microsoft.cognitiveservices.speech.AudioInputStreamFormat
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._audio_input_stream_format.yml
+  href: com.microsoft.cognitiveservices.speech.AudioInputStreamFormat.yml
   name: AudioInputStreamFormat
   nameWithType: AudioInputStreamFormat
   fullName: com.microsoft.cognitiveservices.speech.AudioInputStreamFormat
   type: Class
   syntax:
     content: public class AudioInputStreamFormat
-- uid: com.microsoft.cognitiveservices.speech._factory_parameter_names
+- uid: com.microsoft.cognitiveservices.speech.FactoryParameterNames
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._factory_parameter_names.yml
+  href: com.microsoft.cognitiveservices.speech.FactoryParameterNames.yml
   name: FactoryParameterNames
   nameWithType: FactoryParameterNames
   fullName: com.microsoft.cognitiveservices.speech.FactoryParameterNames
@@ -92,9 +92,9 @@ references:
   summary: <p>Defines constants used in speech recognition and translation. </p>
   syntax:
     content: public class FactoryParameterNames
-- uid: com.microsoft.cognitiveservices.speech._keyword_recognition_model
+- uid: com.microsoft.cognitiveservices.speech.KeywordRecognitionModel
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._keyword_recognition_model.yml
+  href: com.microsoft.cognitiveservices.speech.KeywordRecognitionModel.yml
   name: KeywordRecognitionModel
   nameWithType: KeywordRecognitionModel
   fullName: com.microsoft.cognitiveservices.speech.KeywordRecognitionModel
@@ -102,9 +102,9 @@ references:
   summary: <p>Represents a keyword recognition model for recognizing when the user says a keyword to initiate further speech recognition. </p>
   syntax:
     content: public class KeywordRecognitionModel
-- uid: com.microsoft.cognitiveservices.speech._output_format
+- uid: com.microsoft.cognitiveservices.speech.OutputFormat
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._output_format.yml
+  href: com.microsoft.cognitiveservices.speech.OutputFormat.yml
   name: OutputFormat
   nameWithType: OutputFormat
   fullName: com.microsoft.cognitiveservices.speech.OutputFormat
@@ -112,9 +112,9 @@ references:
   summary: <p>Define Speech Recognizer output formats. </p>
   syntax:
     content: public enum OutputFormat
-- uid: com.microsoft.cognitiveservices.speech._parameter_collection
+- uid: com.microsoft.cognitiveservices.speech.ParameterCollection
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._parameter_collection.yml
+  href: com.microsoft.cognitiveservices.speech.ParameterCollection.yml
   name: ParameterCollection<OwnerType>
   nameWithType: ParameterCollection<OwnerType>
   fullName: com.microsoft.cognitiveservices.speech.ParameterCollection<OwnerType>
@@ -125,9 +125,9 @@ references:
     typeParameters:
     - id: OwnerType
       type: dfe4eb14
-- uid: com.microsoft.cognitiveservices.speech._recognition_error_event_args
+- uid: com.microsoft.cognitiveservices.speech.RecognitionErrorEventArgs
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognition_error_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.RecognitionErrorEventArgs.yml
   name: RecognitionErrorEventArgs
   nameWithType: RecognitionErrorEventArgs
   fullName: com.microsoft.cognitiveservices.speech.RecognitionErrorEventArgs
@@ -135,9 +135,9 @@ references:
   summary: <p>Defines content of a RecognitionErrorEvent. </p>
   syntax:
     content: public class RecognitionErrorEventArgs
-- uid: com.microsoft.cognitiveservices.speech._recognition_event_args
+- uid: com.microsoft.cognitiveservices.speech.RecognitionEventArgs
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognition_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.RecognitionEventArgs.yml
   name: RecognitionEventArgs
   nameWithType: RecognitionEventArgs
   fullName: com.microsoft.cognitiveservices.speech.RecognitionEventArgs
@@ -145,9 +145,9 @@ references:
   summary: <p>Defines payload for session events like Speech Start/End Detected </p>
   syntax:
     content: public class RecognitionEventArgs
-- uid: com.microsoft.cognitiveservices.speech._recognition_event_type
+- uid: com.microsoft.cognitiveservices.speech.RecognitionEventType
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognition_event_type.yml
+  href: com.microsoft.cognitiveservices.speech.RecognitionEventType.yml
   name: RecognitionEventType
   nameWithType: RecognitionEventType
   fullName: com.microsoft.cognitiveservices.speech.RecognitionEventType
@@ -155,9 +155,9 @@ references:
   summary: <p>Define RecognitionEventType event types. </p>
   syntax:
     content: public enum RecognitionEventType
-- uid: com.microsoft.cognitiveservices.speech._recognition_status
+- uid: com.microsoft.cognitiveservices.speech.RecognitionStatus
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognition_status.yml
+  href: com.microsoft.cognitiveservices.speech.RecognitionStatus.yml
   name: RecognitionStatus
   nameWithType: RecognitionStatus
   fullName: com.microsoft.cognitiveservices.speech.RecognitionStatus
@@ -165,9 +165,9 @@ references:
   summary: <p>Defines recognition status. </p>
   syntax:
     content: public enum RecognitionStatus
-- uid: com.microsoft.cognitiveservices.speech._recognizer
+- uid: com.microsoft.cognitiveservices.speech.Recognizer
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognizer.yml
+  href: com.microsoft.cognitiveservices.speech.Recognizer.yml
   name: Recognizer
   nameWithType: Recognizer
   fullName: com.microsoft.cognitiveservices.speech.Recognizer
@@ -175,9 +175,9 @@ references:
   summary: <p>Defines the base class Recognizer which mainly contains common event handlers. </p>
   syntax:
     content: public class Recognizer
-- uid: com.microsoft.cognitiveservices.speech._recognizer_parameter_names
+- uid: com.microsoft.cognitiveservices.speech.RecognizerParameterNames
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._recognizer_parameter_names.yml
+  href: com.microsoft.cognitiveservices.speech.RecognizerParameterNames.yml
   name: RecognizerParameterNames
   nameWithType: RecognizerParameterNames
   fullName: com.microsoft.cognitiveservices.speech.RecognizerParameterNames
@@ -185,9 +185,9 @@ references:
   summary: <p>Defines constants used in speech recognition and translation. </p>
   syntax:
     content: public class RecognizerParameterNames
-- uid: com.microsoft.cognitiveservices.speech._result_parameter_names
+- uid: com.microsoft.cognitiveservices.speech.ResultParameterNames
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._result_parameter_names.yml
+  href: com.microsoft.cognitiveservices.speech.ResultParameterNames.yml
   name: ResultParameterNames
   nameWithType: ResultParameterNames
   fullName: com.microsoft.cognitiveservices.speech.ResultParameterNames
@@ -195,9 +195,9 @@ references:
   summary: <p>Defines constants used in speech recognition and translation. </p>
   syntax:
     content: public class ResultParameterNames
-- uid: com.microsoft.cognitiveservices.speech._session_event_args
+- uid: com.microsoft.cognitiveservices.speech.SessionEventArgs
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._session_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.SessionEventArgs.yml
   name: SessionEventArgs
   nameWithType: SessionEventArgs
   fullName: com.microsoft.cognitiveservices.speech.SessionEventArgs
@@ -205,9 +205,9 @@ references:
   summary: <p>Defines content for session events like SessionStarted/Stopped, SoundStarted/Stopped. </p>
   syntax:
     content: public class SessionEventArgs
-- uid: com.microsoft.cognitiveservices.speech._session_event_type
+- uid: com.microsoft.cognitiveservices.speech.SessionEventType
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._session_event_type.yml
+  href: com.microsoft.cognitiveservices.speech.SessionEventType.yml
   name: SessionEventType
   nameWithType: SessionEventType
   fullName: com.microsoft.cognitiveservices.speech.SessionEventType
@@ -215,9 +215,9 @@ references:
   summary: <p>Define session event types. </p>
   syntax:
     content: public enum SessionEventType
-- uid: com.microsoft.cognitiveservices.speech._speech_factory
+- uid: com.microsoft.cognitiveservices.speech.SpeechFactory
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._speech_factory.yml
+  href: com.microsoft.cognitiveservices.speech.SpeechFactory.yml
   name: SpeechFactory
   nameWithType: SpeechFactory
   fullName: com.microsoft.cognitiveservices.speech.SpeechFactory
@@ -225,9 +225,9 @@ references:
   summary: <p>Factory methods to create recognizers. </p>
   syntax:
     content: public class SpeechFactory
-- uid: com.microsoft.cognitiveservices.speech._speech_recognition_result
+- uid: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._speech_recognition_result.yml
+  href: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult.yml
   name: SpeechRecognitionResult
   nameWithType: SpeechRecognitionResult
   fullName: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult
@@ -235,9 +235,9 @@ references:
   summary: <p>Defines result of speech recognition. </p>
   syntax:
     content: public class SpeechRecognitionResult
-- uid: com.microsoft.cognitiveservices.speech._speech_recognition_result_event_args
+- uid: com.microsoft.cognitiveservices.speech.SpeechRecognitionResultEventArgs
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._speech_recognition_result_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.SpeechRecognitionResultEventArgs.yml
   name: SpeechRecognitionResultEventArgs
   nameWithType: SpeechRecognitionResultEventArgs
   fullName: com.microsoft.cognitiveservices.speech.SpeechRecognitionResultEventArgs
@@ -245,9 +245,9 @@ references:
   summary: <p>Defines contents of speech intermediate/final result event. </p>
   syntax:
     content: public class SpeechRecognitionResultEventArgs
-- uid: com.microsoft.cognitiveservices.speech._speech_recognizer
+- uid: com.microsoft.cognitiveservices.speech.SpeechRecognizer
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._speech_recognizer.yml
+  href: com.microsoft.cognitiveservices.speech.SpeechRecognizer.yml
   name: SpeechRecognizer
   nameWithType: SpeechRecognizer
   fullName: com.microsoft.cognitiveservices.speech.SpeechRecognizer
@@ -255,9 +255,9 @@ references:
   summary: <p>Performs speech recognition from microphone, file, or other audio input streams, and gets transcribed text as result. </p>
   syntax:
     content: public class SpeechRecognizer extends Recognizer
-- uid: com.microsoft.cognitiveservices.speech._speech_recognition_result._recognition_result_collection
+- uid: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult.RecognitionResultCollection
   parent: com.microsoft.cognitiveservices.speech
-  href: com.microsoft.cognitiveservices.speech._speech_recognition_result._recognition_result_collection.yml
+  href: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult.RecognitionResultCollection.yml
   name: SpeechRecognitionResult.RecognitionResultCollection
   nameWithType: SpeechRecognitionResult.RecognitionResultCollection
   fullName: com.microsoft.cognitiveservices.speech.SpeechRecognitionResult.RecognitionResultCollection

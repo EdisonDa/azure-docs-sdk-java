@@ -3,13 +3,13 @@ items:
 - uid: com.microsoft.cognitiveservices.speech.translation
   id: translation
   children:
-  - com.microsoft.cognitiveservices.speech.translation._synthesis_status
-  - com.microsoft.cognitiveservices.speech.translation._translation_recognizer
-  - com.microsoft.cognitiveservices.speech.translation._translation_status
-  - com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result
-  - com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result_event_args
-  - com.microsoft.cognitiveservices.speech.translation._translation_text_result
-  - com.microsoft.cognitiveservices.speech.translation._translation_text_result_event_args
+  - com.microsoft.cognitiveservices.speech.translation.SynthesisStatus
+  - com.microsoft.cognitiveservices.speech.translation.TranslationRecognizer
+  - com.microsoft.cognitiveservices.speech.translation.TranslationStatus
+  - com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResult
+  - com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResultEventArgs
+  - com.microsoft.cognitiveservices.speech.translation.TranslationTextResult
+  - com.microsoft.cognitiveservices.speech.translation.TranslationTextResultEventArgs
   href: com.microsoft.cognitiveservices.speech.translation.yml
   langs:
   - java
@@ -26,9 +26,9 @@ items:
   syntax:
     content: package com.microsoft.cognitiveservices.speech.translation
 references:
-- uid: com.microsoft.cognitiveservices.speech.translation._synthesis_status
+- uid: com.microsoft.cognitiveservices.speech.translation.SynthesisStatus
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._synthesis_status.yml
+  href: com.microsoft.cognitiveservices.speech.translation.SynthesisStatus.yml
   name: SynthesisStatus
   nameWithType: SynthesisStatus
   fullName: com.microsoft.cognitiveservices.speech.translation.SynthesisStatus
@@ -36,9 +36,9 @@ references:
   summary: <p>Defines synthesis status. </p>
   syntax:
     content: public enum SynthesisStatus
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_recognizer
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationRecognizer
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_recognizer.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationRecognizer.yml
   name: TranslationRecognizer
   nameWithType: TranslationRecognizer
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationRecognizer
@@ -46,9 +46,9 @@ references:
   summary: <p>Performs translation on the speech input. </p>
   syntax:
     content: public class TranslationRecognizer extends Recognizer
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_status
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationStatus
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_status.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationStatus.yml
   name: TranslationStatus
   nameWithType: TranslationStatus
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationStatus
@@ -56,9 +56,9 @@ references:
   summary: <p>Defines recognition status. </p>
   syntax:
     content: public enum TranslationStatus
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResult
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResult.yml
   name: TranslationSynthesisResult
   nameWithType: TranslationSynthesisResult
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResult
@@ -66,9 +66,9 @@ references:
   summary: <p>Defines translation synthesis result, i.e. the voice output of the translated text in the target language. </p>
   syntax:
     content: public class TranslationSynthesisResult
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result_event_args
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResultEventArgs
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_synthesis_result_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResultEventArgs.yml
   name: TranslationSynthesisResultEventArgs
   nameWithType: TranslationSynthesisResultEventArgs
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationSynthesisResultEventArgs
@@ -76,9 +76,9 @@ references:
   summary: <p>Defines the content of translation synthesis result event. </p>
   syntax:
     content: public class TranslationSynthesisResultEventArgs
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_text_result
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationTextResult
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_text_result.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationTextResult.yml
   name: TranslationTextResult
   nameWithType: TranslationTextResult
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationTextResult
@@ -86,9 +86,9 @@ references:
   summary: <p>Defines TranslationText result. </p>
   syntax:
     content: public class TranslationTextResult extends SpeechRecognitionResult
-- uid: com.microsoft.cognitiveservices.speech.translation._translation_text_result_event_args
+- uid: com.microsoft.cognitiveservices.speech.translation.TranslationTextResultEventArgs
   parent: com.microsoft.cognitiveservices.speech.translation
-  href: com.microsoft.cognitiveservices.speech.translation._translation_text_result_event_args.yml
+  href: com.microsoft.cognitiveservices.speech.translation.TranslationTextResultEventArgs.yml
   name: TranslationTextResultEventArgs
   nameWithType: TranslationTextResultEventArgs
   fullName: com.microsoft.cognitiveservices.speech.translation.TranslationTextResultEventArgs

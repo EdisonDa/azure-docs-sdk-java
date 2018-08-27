@@ -1,0 +1,573 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  id: StreamingLocatorInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  children:
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName(String)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys(List<StreamingLocatorUserDefinedContentKey>)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName(String)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime(DateTime)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime(DateTime)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId(UUID)
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName(String)
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: StreamingLocatorInner
+  nameWithType: StreamingLocatorInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  type: Class
+  source:
+    remote: &o0
+      path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+      branch: mgmt-generated
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 21
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: <p>A Streaming Locator resource. </p>
+  syntax: &o1
+    content: public class StreamingLocatorInner extends ProxyResourceInner
+  inheritance:
+  - java.lang.Object
+  - ProxyResource
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName()
+  id: assetName()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: assetName()
+  nameWithType: StreamingLocatorInner.assetName()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 81
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the assetName value.</p>
+
+    <p></p>
+  syntax:
+    content: public String assetName()
+    return:
+      type: "26831127"
+      description: <p>the assetName value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys()
+  id: contentKeys()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: contentKeys()
+  nameWithType: StreamingLocatorInner.contentKeys()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 210
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the contentKeys value.</p>
+
+    <p></p>
+  syntax:
+    content: public List<StreamingLocatorUserDefinedContentKey> contentKeys()
+    return:
+      type: 5618da2dcom.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKeya08ddfce
+      description: <p>the contentKeys value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created()
+  id: created()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: created()
+  nameWithType: StreamingLocatorInner.created()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 101
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the created value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime created()
+    return:
+      type: 230df18c
+      description: <p>the created value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName()
+  id: defaultContentKeyPolicyName()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: defaultContentKeyPolicyName()
+  nameWithType: StreamingLocatorInner.defaultContentKeyPolicyName()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 190
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the defaultContentKeyPolicyName value.</p>
+
+    <p></p>
+  syntax:
+    content: public String defaultContentKeyPolicyName()
+    return:
+      type: "26831127"
+      description: <p>the defaultContentKeyPolicyName value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime()
+  id: endTime()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: endTime()
+  nameWithType: StreamingLocatorInner.endTime()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 130
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the endTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime endTime()
+    return:
+      type: 230df18c
+      description: <p>the endTime value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime()
+  id: startTime()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: startTime()
+  nameWithType: StreamingLocatorInner.startTime()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 110
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the startTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public DateTime startTime()
+    return:
+      type: 230df18c
+      description: <p>the startTime value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId()
+  id: streamingLocatorId()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: streamingLocatorId()
+  nameWithType: StreamingLocatorInner.streamingLocatorId()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 150
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the streamingLocatorId value.</p>
+
+    <p></p>
+  syntax:
+    content: public UUID streamingLocatorId()
+    return:
+      type: add9545a
+      description: <p>the streamingLocatorId value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName()
+  id: streamingPolicyName()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: streamingPolicyName()
+  nameWithType: StreamingLocatorInner.streamingPolicyName()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 170
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the streamingPolicyName value.</p>
+
+    <p></p>
+  syntax:
+    content: public String streamingPolicyName()
+    return:
+      type: "26831127"
+      description: <p>the streamingPolicyName value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName(String)
+  id: withAssetName(String)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withAssetName(String assetName)
+  nameWithType: StreamingLocatorInner.withAssetName(String assetName)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName(String assetName)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 91
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the assetName value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withAssetName(String assetName)
+    parameters:
+    - id: assetName
+      type: "26831127"
+      description: <p>the assetName value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys(List<StreamingLocatorUserDefinedContentKey>)
+  id: withContentKeys(List<StreamingLocatorUserDefinedContentKey>)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withContentKeys(List<StreamingLocatorUserDefinedContentKey> contentKeys)
+  nameWithType: StreamingLocatorInner.withContentKeys(List<StreamingLocatorUserDefinedContentKey> contentKeys)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys(List<StreamingLocatorUserDefinedContentKey> contentKeys)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 220
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the contentKeys value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withContentKeys(List<StreamingLocatorUserDefinedContentKey> contentKeys)
+    parameters:
+    - id: contentKeys
+      type: 5618da2dcom.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKeya08ddfce
+      description: <p>the contentKeys value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName(String)
+  id: withDefaultContentKeyPolicyName(String)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withDefaultContentKeyPolicyName(String defaultContentKeyPolicyName)
+  nameWithType: StreamingLocatorInner.withDefaultContentKeyPolicyName(String defaultContentKeyPolicyName)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName(String defaultContentKeyPolicyName)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 200
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the defaultContentKeyPolicyName value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withDefaultContentKeyPolicyName(String defaultContentKeyPolicyName)
+    parameters:
+    - id: defaultContentKeyPolicyName
+      type: "26831127"
+      description: <p>the defaultContentKeyPolicyName value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime(DateTime)
+  id: withEndTime(DateTime)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withEndTime(DateTime endTime)
+  nameWithType: StreamingLocatorInner.withEndTime(DateTime endTime)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime(DateTime endTime)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 140
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the endTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withEndTime(DateTime endTime)
+    parameters:
+    - id: endTime
+      type: 230df18c
+      description: <p>the endTime value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime(DateTime)
+  id: withStartTime(DateTime)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withStartTime(DateTime startTime)
+  nameWithType: StreamingLocatorInner.withStartTime(DateTime startTime)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime(DateTime startTime)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 120
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the startTime value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withStartTime(DateTime startTime)
+    parameters:
+    - id: startTime
+      type: 230df18c
+      description: <p>the startTime value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId(UUID)
+  id: withStreamingLocatorId(UUID)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withStreamingLocatorId(UUID streamingLocatorId)
+  nameWithType: StreamingLocatorInner.withStreamingLocatorId(UUID streamingLocatorId)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId(UUID streamingLocatorId)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 160
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the streamingLocatorId value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withStreamingLocatorId(UUID streamingLocatorId)
+    parameters:
+    - id: streamingLocatorId
+      type: add9545a
+      description: <p>the streamingLocatorId value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName(String)
+  id: withStreamingPolicyName(String)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  langs:
+  - java
+  name: withStreamingPolicyName(String streamingPolicyName)
+  nameWithType: StreamingLocatorInner.withStreamingPolicyName(String streamingPolicyName)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName(String streamingPolicyName)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/StreamingLocatorInner.java
+    startLine: 180
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the streamingPolicyName value.</p>
+
+    <p></p>
+  syntax:
+    content: public StreamingLocatorInner withStreamingPolicyName(String streamingPolicyName)
+    parameters:
+    - id: streamingPolicyName
+      type: "26831127"
+      description: <p>the streamingPolicyName value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+      description: <p>the StreamingLocatorInner object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName*
+  name: assetName
+  nameWithType: StreamingLocatorInner.assetName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.assetName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName*
+  name: withAssetName
+  nameWithType: StreamingLocatorInner.withAssetName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withAssetName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: 230df18c
+  spec.java:
+  - name: DateTime
+    fullName: DateTime
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created*
+  name: created
+  nameWithType: StreamingLocatorInner.created
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.created
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime*
+  name: startTime
+  nameWithType: StreamingLocatorInner.startTime
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.startTime
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime*
+  name: withStartTime
+  nameWithType: StreamingLocatorInner.withStartTime
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStartTime
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime*
+  name: endTime
+  nameWithType: StreamingLocatorInner.endTime
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.endTime
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime*
+  name: withEndTime
+  nameWithType: StreamingLocatorInner.withEndTime
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withEndTime
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: add9545a
+  spec.java:
+  - name: UUID
+    fullName: UUID
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId*
+  name: streamingLocatorId
+  nameWithType: StreamingLocatorInner.streamingLocatorId
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingLocatorId
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId*
+  name: withStreamingLocatorId
+  nameWithType: StreamingLocatorInner.withStreamingLocatorId
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingLocatorId
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName*
+  name: streamingPolicyName
+  nameWithType: StreamingLocatorInner.streamingPolicyName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.streamingPolicyName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName*
+  name: withStreamingPolicyName
+  nameWithType: StreamingLocatorInner.withStreamingPolicyName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withStreamingPolicyName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName*
+  name: defaultContentKeyPolicyName
+  nameWithType: StreamingLocatorInner.defaultContentKeyPolicyName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.defaultContentKeyPolicyName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName*
+  name: withDefaultContentKeyPolicyName
+  nameWithType: StreamingLocatorInner.withDefaultContentKeyPolicyName
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withDefaultContentKeyPolicyName
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: 5618da2dcom.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKeya08ddfce
+  spec.java:
+  - name: List<
+    fullName: List<
+  - uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey
+    name: StreamingLocatorUserDefinedContentKey
+    fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey
+    href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey.yml
+  - name: '>'
+    fullName: '>'
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys*
+  name: contentKeys
+  nameWithType: StreamingLocatorInner.contentKeys
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.contentKeys
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys*
+  name: withContentKeys
+  nameWithType: StreamingLocatorInner.withContentKeys
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.withContentKeys
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner.yml
+  name: ProxyResourceInner
+  nameWithType: ProxyResourceInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.ProxyResourceInner
+  type: Class
+  summary: <p>The resource model definition for a ARM proxy resource. </p>
+  syntax:
+    content: public class ProxyResourceInner
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey.yml
+  name: StreamingLocatorUserDefinedContentKey
+  nameWithType: StreamingLocatorUserDefinedContentKey
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.StreamingLocatorUserDefinedContentKey
+  type: Class
+  summary: <p>Describes the properties of a user-defined content key in the Streaming Locator. </p>
+  syntax:
+    content: public class StreamingLocatorUserDefinedContentKey
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner.yml
+  name: StreamingLocatorInner
+  nameWithType: StreamingLocatorInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.StreamingLocatorInner
+  type: Class
+  summary: <p>A Streaming Locator resource. </p>
+  syntax: *o1

@@ -3,7 +3,7 @@ items:
 - uid: com.microsoft.applicationinsights.boot.initializer
   id: initializer
   children:
-  - com.microsoft.applicationinsights.boot.initializer._spring_boot_telemetry_initializer
+  - com.microsoft.applicationinsights.boot.initializer.SpringBootTelemetryInitializer
   href: com.microsoft.applicationinsights.boot.initializer.yml
   langs:
   - java
@@ -20,9 +20,9 @@ items:
   syntax:
     content: package com.microsoft.applicationinsights.boot.initializer
 references:
-- uid: com.microsoft.applicationinsights.boot.initializer._spring_boot_telemetry_initializer
+- uid: com.microsoft.applicationinsights.boot.initializer.SpringBootTelemetryInitializer
   parent: com.microsoft.applicationinsights.boot.initializer
-  href: com.microsoft.applicationinsights.boot.initializer._spring_boot_telemetry_initializer.yml
+  href: com.microsoft.applicationinsights.boot.initializer.SpringBootTelemetryInitializer.yml
   name: SpringBootTelemetryInitializer
   nameWithType: SpringBootTelemetryInitializer
   fullName: com.microsoft.applicationinsights.boot.initializer.SpringBootTelemetryInitializer

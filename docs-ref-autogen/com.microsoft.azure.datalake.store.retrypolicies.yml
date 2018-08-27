@@ -3,10 +3,10 @@ items:
 - uid: com.microsoft.azure.datalake.store.retrypolicies
   id: retrypolicies
   children:
-  - com.microsoft.azure.datalake.store.retrypolicies._exponential_backoff_policy
-  - com.microsoft.azure.datalake.store.retrypolicies._no_retry_policy
-  - com.microsoft.azure.datalake.store.retrypolicies._non_idempotent_retry_policy
-  - com.microsoft.azure.datalake.store.retrypolicies._retry_policy
+  - com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy
+  - com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy
+  - com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy
+  - com.microsoft.azure.datalake.store.retrypolicies.RetryPolicy
   href: com.microsoft.azure.datalake.store.retrypolicies.yml
   langs:
   - java
@@ -25,9 +25,9 @@ items:
   syntax:
     content: package com.microsoft.azure.datalake.store.retrypolicies
 references:
-- uid: com.microsoft.azure.datalake.store.retrypolicies._exponential_backoff_policy
+- uid: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy
   parent: com.microsoft.azure.datalake.store.retrypolicies
-  href: com.microsoft.azure.datalake.store.retrypolicies._exponential_backoff_policy.yml
+  href: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy.yml
   name: ExponentialBackoffPolicy
   nameWithType: ExponentialBackoffPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.ExponentialBackoffPolicy
@@ -62,9 +62,9 @@ references:
     </p>
   syntax:
     content: public class ExponentialBackoffPolicy implements RetryPolicy
-- uid: com.microsoft.azure.datalake.store.retrypolicies._non_idempotent_retry_policy
+- uid: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy
   parent: com.microsoft.azure.datalake.store.retrypolicies
-  href: com.microsoft.azure.datalake.store.retrypolicies._non_idempotent_retry_policy.yml
+  href: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy.yml
   name: NonIdempotentRetryPolicy
   nameWithType: NonIdempotentRetryPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NonIdempotentRetryPolicy
@@ -75,9 +75,9 @@ references:
     <p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>
   syntax:
     content: public class NonIdempotentRetryPolicy implements RetryPolicy
-- uid: com.microsoft.azure.datalake.store.retrypolicies._no_retry_policy
+- uid: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy
   parent: com.microsoft.azure.datalake.store.retrypolicies
-  href: com.microsoft.azure.datalake.store.retrypolicies._no_retry_policy.yml
+  href: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy.yml
   name: NoRetryPolicy
   nameWithType: NoRetryPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.NoRetryPolicy
@@ -88,9 +88,9 @@ references:
     <p>This should be used when retrying is not safe, and user wants at-most-once semantics with the call. This is useful for non-idempotent methods, where the error returned by the last call does not conclusively indicate success or failure of the call. For example, if an append times out but succeeds on the back-end , then retrying it may append the data twice to the file. </p>
   syntax:
     content: public class NoRetryPolicy implements RetryPolicy
-- uid: com.microsoft.azure.datalake.store.retrypolicies._retry_policy
+- uid: com.microsoft.azure.datalake.store.retrypolicies.RetryPolicy
   parent: com.microsoft.azure.datalake.store.retrypolicies
-  href: com.microsoft.azure.datalake.store.retrypolicies._retry_policy.yml
+  href: com.microsoft.azure.datalake.store.retrypolicies.RetryPolicy.yml
   name: RetryPolicy
   nameWithType: RetryPolicy
   fullName: com.microsoft.azure.datalake.store.retrypolicies.RetryPolicy

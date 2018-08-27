@@ -1,0 +1,106 @@
+### YamlMime:ManagedReference
+items:
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  id: AssetStorageEncryptionKeyInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  children:
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey()
+  - com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey(String)
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.yml
+  langs:
+  - java
+  name: AssetStorageEncryptionKeyInner
+  nameWithType: AssetStorageEncryptionKeyInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  type: Class
+  source:
+    remote: &o0
+      path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/AssetStorageEncryptionKeyInner.java
+      branch: mgmt-generated
+      repo: https://github.com/Azure/azure-sdk-for-java
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/AssetStorageEncryptionKeyInner.java
+    startLine: 15
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: <p>The Asset Storage encryption key. </p>
+  syntax: &o1
+    content: public class AssetStorageEncryptionKeyInner
+  inheritance:
+  - java.lang.Object
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey()
+  id: storageEncryptionKey()
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.yml
+  langs:
+  - java
+  name: storageEncryptionKey()
+  nameWithType: AssetStorageEncryptionKeyInner.storageEncryptionKey()
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey()
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/AssetStorageEncryptionKeyInner.java
+    startLine: 27
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Get the storageEncryptionKey value.</p>
+
+    <p></p>
+  syntax:
+    content: public String storageEncryptionKey()
+    return:
+      type: "26831127"
+      description: <p>the storageEncryptionKey value </p>
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey(String)
+  id: withStorageEncryptionKey(String)
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.yml
+  langs:
+  - java
+  name: withStorageEncryptionKey(String storageEncryptionKey)
+  nameWithType: AssetStorageEncryptionKeyInner.withStorageEncryptionKey(String storageEncryptionKey)
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey(String storageEncryptionKey)
+  overload: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey*
+  type: Method
+  source:
+    remote: *o0
+    path: mediaservices/v2018_03_30_preview/src/main/java/com/microsoft/azure/management/mediaservices/v2018_03_30_preview/implementation/AssetStorageEncryptionKeyInner.java
+    startLine: 37
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  summary: >-
+    <p>Set the storageEncryptionKey value.</p>
+
+    <p></p>
+  syntax:
+    content: public AssetStorageEncryptionKeyInner withStorageEncryptionKey(String storageEncryptionKey)
+    parameters:
+    - id: storageEncryptionKey
+      type: "26831127"
+      description: <p>the storageEncryptionKey value to set </p>
+    return:
+      type: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+      description: <p>the AssetStorageEncryptionKeyInner object itself. </p>
+references:
+- uid: "26831127"
+  spec.java:
+  - name: String
+    fullName: String
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey*
+  name: storageEncryptionKey
+  nameWithType: AssetStorageEncryptionKeyInner.storageEncryptionKey
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.storageEncryptionKey
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey*
+  name: withStorageEncryptionKey
+  nameWithType: AssetStorageEncryptionKeyInner.withStorageEncryptionKey
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.withStorageEncryptionKey
+  package: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+- uid: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  parent: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation
+  href: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner.yml
+  name: AssetStorageEncryptionKeyInner
+  nameWithType: AssetStorageEncryptionKeyInner
+  fullName: com.microsoft.azure.management.mediaservices.v2018_03_30_preview.implementation.AssetStorageEncryptionKeyInner
+  type: Class
+  summary: <p>The Asset Storage encryption key. </p>
+  syntax: *o1
